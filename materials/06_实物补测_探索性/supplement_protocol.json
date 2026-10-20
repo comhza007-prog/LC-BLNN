@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-19",
+  "state": "offline_ready_not_run_on_hardware",
+  "trajectory_and_protection": "10 mm,800/800 counts,1ms controller configuration,250Hz telemetry (Plan A)",
+  "fixed_rho": [
+    0.917,
+    0.979
+  ],
+  "selection_basis": "existing offline comparator, frozen before new hardware results; not tuned on new outcomes",
+  "learning": "scale error-driven term only, preserve nn_eps and nn_eta",
+  "pilot_order": [
+    [
+      "VANILLA",
+      "FIXED",
+      "LC"
+    ],
+    [
+      "LC",
+      "FIXED",
+      "VANILLA"
+    ]
+  ],
+  "pilot_is_not_confirmatory_sample_size": true,
+  "primary_comparison": "LC versus FIXED at identical parameters and full [4000,20000)ms window",
+  "primary_endpoint": "paired synchronization RMS; tracking RMSE and weight peaks are secondary",
+  "failures": "retain all attempts and faults; do not automatically retry or replace a failed run",
+  "reset": "reset weights, antiwindup, observer and slew history uniformly before each run",
+  "existing_105": "preserved; new concurrent runs analyzed separately",
+  "target_project": "D:\\lunwen2\\起重机\\output\\14_对标补全与现场就绪\\measurement_firmware\\MDK-ARM\\eassy.uvprojx",
+  "not_yet_ready_for_live_deployment": [
+    "zero-output target qualification of new branch",
+    "on-site operation and new measurements"
+  ],
+  "parameter_inputs_still_needed": [
+    "verify feedback polarity and timing using new unloaded recordings",
+    "check known added mass, secure mounting, informative excitation and held-out validation; yaw and separate motor gains remain unresolved"
+  ],
+  "hardware_was_not_started": true,
+  "moving_assembly_mass_measurement": {
+    "date": "2026-10-19",
+    "source": "Human direct reply: 3 1g 不包含, to the moving-assembly weighing question",
+    "moving_assembly_mechanical_mass_kg": 3.0,
+    "scale_reported_increment_kg": 0.001,
+    "scale_calibration_accuracy_and_uncertainty": null,
+    "includes_added_2kg_load": false,
+    "excludes_fixed_base": true,
+    "assembly_scope": "crossbeam, sliders, moving motors and gearboxes as specified in the question",
+    "measurement_is_user_reported_not_independently_observed": true,
+    "rotational_reflected_effective_mass_kg": null,
+    "effective_translation_inertia_kg": null,
+    "yaw_inertia_kg_m2": null,
+    "force_mapping_and_friction_calibrated": false,
+    "does_not_change_historical_controller_or_experimental_data": true
+  },
+  "added_load_enabled": true,
+  "parameter_identification_scope": "paired unloaded/known-added-mass identification with held-out runs; absolute estimates conditional on excitation and common gain",
+  "telemetry_Hz": 250,
+  "expected_frames_4to20s": 4000,
+  "zero_output_qualification_reference": "D:\\lunwen2\\起重机\\output\\14_对标补全与现场就绪\\runs\\Q01_A09_20261019_125540_135372"
+}

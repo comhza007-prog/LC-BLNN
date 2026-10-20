@@ -1,0 +1,770 @@
+{
+  "audit_timestamp": "2026-10-20T08:05:00Z",
+  "symmetric_capability_precondition": {
+    "Kf_L": 0.0061979167,
+    "Kf_R": 0.0061979167,
+    "Imax_L": 800.0,
+    "Imax_R": 800.0,
+    "a_L": 4.95833336,
+    "a_R": 4.95833336,
+    "is_symmetric": true,
+    "F_max_N": 9.91666672,
+    "T_max_Nm": 2.975000016
+  },
+  "allocator_equivalence_verification": {
+    "is_consistent": true,
+    "max_abs_err_F": 0.0,
+    "max_abs_err_T": 0.0,
+    "test_points_count": 27,
+    "records": [
+      {
+        "desc": "zero",
+        "ybar_F": 0.0,
+        "ybar_T": 0.0,
+        "p_norm_F": 0.0,
+        "p_norm_T": 0.0,
+        "u_phys_norm_F": 0.0,
+        "u_phys_norm_T": 0.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "interior_positive",
+        "ybar_F": 0.3,
+        "ybar_T": 0.2,
+        "p_norm_F": 0.3,
+        "p_norm_T": 0.2,
+        "u_phys_norm_F": 0.3,
+        "u_phys_norm_T": 0.2,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "interior_negative",
+        "ybar_F": -0.4,
+        "ybar_T": -0.3,
+        "p_norm_F": -0.4,
+        "p_norm_T": -0.3,
+        "u_phys_norm_F": -0.4,
+        "u_phys_norm_T": -0.3,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "interior_mixed_1",
+        "ybar_F": 0.5,
+        "ybar_T": -0.3,
+        "p_norm_F": 0.5,
+        "p_norm_T": -0.3,
+        "u_phys_norm_F": 0.5,
+        "u_phys_norm_T": -0.3,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "interior_mixed_2",
+        "ybar_F": -0.2,
+        "ybar_T": 0.6,
+        "p_norm_F": -0.2,
+        "p_norm_T": 0.6,
+        "u_phys_norm_F": -0.2,
+        "u_phys_norm_T": 0.6,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "trans_saturated_pos",
+        "ybar_F": 0.8,
+        "ybar_T": 0.4,
+        "p_norm_F": 0.6,
+        "p_norm_T": 0.4,
+        "u_phys_norm_F": 0.6,
+        "u_phys_norm_T": 0.4,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "trans_saturated_neg_F",
+        "ybar_F": -0.9,
+        "ybar_T": 0.3,
+        "p_norm_F": -0.7,
+        "p_norm_T": 0.3,
+        "u_phys_norm_F": -0.7,
+        "u_phys_norm_T": 0.3,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "pure_trans_saturated",
+        "ybar_F": 1.5,
+        "ybar_T": 0.0,
+        "p_norm_F": 1.0,
+        "p_norm_T": 0.0,
+        "u_phys_norm_F": 1.0,
+        "u_phys_norm_T": 0.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "pure_trans_saturated_neg",
+        "ybar_F": -1.8,
+        "ybar_T": 0.0,
+        "p_norm_F": -1.0,
+        "p_norm_T": 0.0,
+        "u_phys_norm_F": -1.0,
+        "u_phys_norm_T": 0.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "pure_torque_saturated_pos",
+        "ybar_F": 0.0,
+        "ybar_T": 1.5,
+        "p_norm_F": 0.0,
+        "p_norm_T": 1.0,
+        "u_phys_norm_F": 0.0,
+        "u_phys_norm_T": 1.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "pure_torque_saturated_neg",
+        "ybar_F": 0.0,
+        "ybar_T": -1.8,
+        "p_norm_F": 0.0,
+        "p_norm_T": -1.0,
+        "u_phys_norm_F": 0.0,
+        "u_phys_norm_T": -1.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "torque_saturated_small_F",
+        "ybar_F": 0.1,
+        "ybar_T": 1.2,
+        "p_norm_F": 0.0,
+        "p_norm_T": 1.0,
+        "u_phys_norm_F": 0.0,
+        "u_phys_norm_T": 1.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "torque_saturated_neg_small_F",
+        "ybar_F": -0.1,
+        "ybar_T": -1.4,
+        "p_norm_F": -0.0,
+        "p_norm_T": -1.0,
+        "u_phys_norm_F": 0.0,
+        "u_phys_norm_T": -1.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "both_saturated_pp",
+        "ybar_F": 1.5,
+        "ybar_T": 1.5,
+        "p_norm_F": 0.0,
+        "p_norm_T": 1.0,
+        "u_phys_norm_F": 0.0,
+        "u_phys_norm_T": 1.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "both_saturated_np",
+        "ybar_F": -1.5,
+        "ybar_T": 1.5,
+        "p_norm_F": -0.0,
+        "p_norm_T": 1.0,
+        "u_phys_norm_F": 0.0,
+        "u_phys_norm_T": 1.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "both_saturated_pn",
+        "ybar_F": 2.0,
+        "ybar_T": -2.0,
+        "p_norm_F": 0.0,
+        "p_norm_T": -1.0,
+        "u_phys_norm_F": 0.0,
+        "u_phys_norm_T": -1.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "both_saturated_nn",
+        "ybar_F": -3.0,
+        "ybar_T": -2.5,
+        "p_norm_F": -0.0,
+        "p_norm_T": -1.0,
+        "u_phys_norm_F": 0.0,
+        "u_phys_norm_T": -1.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "boundary_sum_1_pos",
+        "ybar_F": 0.7,
+        "ybar_T": 0.3,
+        "p_norm_F": 0.7,
+        "p_norm_T": 0.3,
+        "u_phys_norm_F": 0.7,
+        "u_phys_norm_T": 0.3,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "boundary_sum_1_neg_F",
+        "ybar_F": -0.6,
+        "ybar_T": 0.4,
+        "p_norm_F": -0.6,
+        "p_norm_T": 0.4,
+        "u_phys_norm_F": -0.6,
+        "u_phys_norm_T": 0.4,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "boundary_sum_1_neg_T",
+        "ybar_F": 0.5,
+        "ybar_T": -0.5,
+        "p_norm_F": 0.5,
+        "p_norm_T": -0.5,
+        "u_phys_norm_F": 0.5,
+        "u_phys_norm_T": -0.5,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "boundary_sum_1_neg_both",
+        "ybar_F": -0.5,
+        "ybar_T": -0.5,
+        "p_norm_F": -0.5,
+        "p_norm_T": -0.5,
+        "u_phys_norm_F": -0.5,
+        "u_phys_norm_T": -0.5,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "boundary_pure_torque_pos",
+        "ybar_F": 0.0,
+        "ybar_T": 1.0,
+        "p_norm_F": 0.0,
+        "p_norm_T": 1.0,
+        "u_phys_norm_F": 0.0,
+        "u_phys_norm_T": 1.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "boundary_pure_torque_neg",
+        "ybar_F": 0.0,
+        "ybar_T": -1.0,
+        "p_norm_F": 0.0,
+        "p_norm_T": -1.0,
+        "u_phys_norm_F": 0.0,
+        "u_phys_norm_T": -1.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "boundary_pure_trans_pos",
+        "ybar_F": 1.0,
+        "ybar_T": 0.0,
+        "p_norm_F": 1.0,
+        "p_norm_T": 0.0,
+        "u_phys_norm_F": 1.0,
+        "u_phys_norm_T": 0.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "boundary_pure_trans_neg",
+        "ybar_F": -1.0,
+        "ybar_T": 0.0,
+        "p_norm_F": -1.0,
+        "p_norm_T": 0.0,
+        "u_phys_norm_F": -1.0,
+        "u_phys_norm_T": 0.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "boundary_torque_1_with_F",
+        "ybar_F": 0.2,
+        "ybar_T": 1.0,
+        "p_norm_F": 0.0,
+        "p_norm_T": 1.0,
+        "u_phys_norm_F": 0.0,
+        "u_phys_norm_T": 1.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      },
+      {
+        "desc": "boundary_torque_neg1_with_F",
+        "ybar_F": -0.3,
+        "ybar_T": -1.0,
+        "p_norm_F": -0.0,
+        "p_norm_T": -1.0,
+        "u_phys_norm_F": 0.0,
+        "u_phys_norm_T": -1.0,
+        "abs_err_F": 0.0,
+        "abs_err_T": 0.0
+      }
+    ]
+  },
+  "analytic_equilibrium_verification": {
+    "all_passed": true,
+    "max_ode_residual": 0.0,
+    "records": [
+      {
+        "desc": "zero_request",
+        "vbar": [
+          0.0,
+          0.0
+        ],
+        "is_unconstrained": true,
+        "ybar_star": [
+          0.0,
+          0.0
+        ],
+        "hbar": [
+          0.0,
+          0.0
+        ],
+        "h_is_zero": true,
+        "c_F": 1.0,
+        "p_star": [
+          0.0,
+          0.0
+        ],
+        "ode_residual": 0.0
+      },
+      {
+        "desc": "feasible_interior_pos",
+        "vbar": [
+          0.4,
+          0.3
+        ],
+        "is_unconstrained": true,
+        "ybar_star": [
+          0.4,
+          0.3
+        ],
+        "hbar": [
+          0.0,
+          0.0
+        ],
+        "h_is_zero": true,
+        "c_F": 0.7,
+        "p_star": [
+          0.4,
+          0.3
+        ],
+        "ode_residual": 0.0
+      },
+      {
+        "desc": "feasible_interior_neg",
+        "vbar": [
+          -0.3,
+          -0.4
+        ],
+        "is_unconstrained": true,
+        "ybar_star": [
+          -0.3,
+          -0.4
+        ],
+        "hbar": [
+          0.0,
+          0.0
+        ],
+        "h_is_zero": true,
+        "c_F": 0.6,
+        "p_star": [
+          -0.3,
+          -0.4
+        ],
+        "ode_residual": 0.0
+      },
+      {
+        "desc": "feasible_boundary_sum1",
+        "vbar": [
+          0.7,
+          0.3
+        ],
+        "is_unconstrained": true,
+        "ybar_star": [
+          0.7,
+          0.3
+        ],
+        "hbar": [
+          0.0,
+          0.0
+        ],
+        "h_is_zero": true,
+        "c_F": 0.7,
+        "p_star": [
+          0.7,
+          0.3
+        ],
+        "ode_residual": 0.0
+      },
+      {
+        "desc": "trans_constrained",
+        "vbar": [
+          0.8,
+          0.5
+        ],
+        "is_unconstrained": false,
+        "ybar_star": [
+          0.65,
+          0.5
+        ],
+        "hbar": [
+          -0.15000000000000002,
+          0.0
+        ],
+        "h_is_zero": false,
+        "c_F": 0.5,
+        "p_star": [
+          0.5,
+          0.5
+        ],
+        "ode_residual": 0.0
+      },
+      {
+        "desc": "trans_constrained_neg",
+        "vbar": [
+          -0.9,
+          0.2
+        ],
+        "is_unconstrained": false,
+        "ybar_star": [
+          -0.85,
+          0.2
+        ],
+        "hbar": [
+          0.050000000000000044,
+          0.0
+        ],
+        "h_is_zero": false,
+        "c_F": 0.8,
+        "p_star": [
+          -0.8,
+          0.2
+        ],
+        "ode_residual": 0.0
+      },
+      {
+        "desc": "torque_constrained",
+        "vbar": [
+          0.2,
+          1.5
+        ],
+        "is_unconstrained": false,
+        "ybar_star": [
+          0.1,
+          1.25
+        ],
+        "hbar": [
+          -0.1,
+          -0.25
+        ],
+        "h_is_zero": false,
+        "c_F": 0.0,
+        "p_star": [
+          0.0,
+          1.0
+        ],
+        "ode_residual": 0.0
+      },
+      {
+        "desc": "torque_constrained_neg",
+        "vbar": [
+          -0.5,
+          -2.0
+        ],
+        "is_unconstrained": false,
+        "ybar_star": [
+          -0.25,
+          -1.5
+        ],
+        "hbar": [
+          0.25,
+          0.5
+        ],
+        "h_is_zero": false,
+        "c_F": 0.0,
+        "p_star": [
+          -0.0,
+          -1.0
+        ],
+        "ode_residual": 0.0
+      },
+      {
+        "desc": "both_constrained_pp",
+        "vbar": [
+          2.0,
+          2.0
+        ],
+        "is_unconstrained": false,
+        "ybar_star": [
+          1.0,
+          1.5
+        ],
+        "hbar": [
+          -1.0,
+          -0.5
+        ],
+        "h_is_zero": false,
+        "c_F": 0.0,
+        "p_star": [
+          0.0,
+          1.0
+        ],
+        "ode_residual": 0.0
+      },
+      {
+        "desc": "both_constrained_nn",
+        "vbar": [
+          -3.0,
+          -1.5
+        ],
+        "is_unconstrained": false,
+        "ybar_star": [
+          -1.5,
+          -1.25
+        ],
+        "hbar": [
+          1.5,
+          0.25
+        ],
+        "h_is_zero": false,
+        "c_F": 0.0,
+        "p_star": [
+          -0.0,
+          -1.0
+        ],
+        "ode_residual": 0.0
+      },
+      {
+        "desc": "boundary_torque_exact_1",
+        "vbar": [
+          0.5,
+          1.0
+        ],
+        "is_unconstrained": false,
+        "ybar_star": [
+          0.25,
+          1.0
+        ],
+        "hbar": [
+          -0.25,
+          0.0
+        ],
+        "h_is_zero": false,
+        "c_F": 0.0,
+        "p_star": [
+          0.0,
+          1.0
+        ],
+        "ode_residual": 0.0
+      },
+      {
+        "desc": "boundary_trans_exact_1",
+        "vbar": [
+          1.0,
+          0.0
+        ],
+        "is_unconstrained": true,
+        "ybar_star": [
+          1.0,
+          0.0
+        ],
+        "hbar": [
+          0.0,
+          0.0
+        ],
+        "h_is_zero": true,
+        "c_F": 1.0,
+        "p_star": [
+          1.0,
+          0.0
+        ],
+        "ode_residual": 0.0
+      },
+      {
+        "desc": "boundary_torque_exact_neg1",
+        "vbar": [
+          0.0,
+          -1.0
+        ],
+        "is_unconstrained": true,
+        "ybar_star": [
+          0.0,
+          -1.0
+        ],
+        "hbar": [
+          0.0,
+          0.0
+        ],
+        "h_is_zero": true,
+        "c_F": 0.0,
+        "p_star": [
+          0.0,
+          -1.0
+        ],
+        "ode_residual": 0.0
+      },
+      {
+        "desc": "heavy_saturation",
+        "vbar": [
+          10.0,
+          10.0
+        ],
+        "is_unconstrained": false,
+        "ybar_star": [
+          5.0,
+          5.5
+        ],
+        "hbar": [
+          -5.0,
+          -4.5
+        ],
+        "h_is_zero": false,
+        "c_F": 0.0,
+        "p_star": [
+          0.0,
+          1.0
+        ],
+        "ode_residual": 0.0
+      }
+    ]
+  },
+  "convergence_inequality_verification": {
+    "passed": true,
+    "n_samples_tested": 50000,
+    "min_slack_T_channel": -1.4210854715202004e-14,
+    "min_slack_F_channel": 3.099339582272702e-05,
+    "min_slack_Wf_bound_1": 3.099339582224303e-05,
+    "min_slack_Wf_exponential": 0.002202327046847344,
+    "worst_case_point": {
+      "v": [
+        1.7187913635090437,
+        -3.0164424062452797
+      ],
+      "eta": [
+        0.001103892676943552,
+        -0.008496606529631023
+      ],
+      "Wf": 3.670545078078907e-05,
+      "Wf_dot": -0.0029364360624631256,
+      "bound_neg20_Wf": -0.0007341090156157814,
+      "slack": 0.002202327046847344
+    }
+  },
+  "ode_trajectory_regression": {
+    "all_ode_passed": true,
+    "max_overall_violation": 0.0,
+    "scenarios": [
+      {
+        "name": "feasible_interior",
+        "desc": "请求在可行域内",
+        "v": [
+          0.4,
+          0.3
+        ],
+        "eta0": [
+          1.0,
+          -0.8
+        ],
+        "norm_eta0": 1.2806248474865698,
+        "final_time_s": 0.5,
+        "final_norm_eta": 5.0060434750016727e-05,
+        "final_bound": 0.008628782348076416,
+        "max_violation": 0.0,
+        "strictly_bounded": true
+      },
+      {
+        "name": "trans_saturated_only",
+        "desc": "平动请求超限",
+        "v": [
+          0.9,
+          0.2
+        ],
+        "eta0": [
+          -0.5,
+          0.5
+        ],
+        "norm_eta0": 0.7071067811865476,
+        "final_time_s": 0.5,
+        "final_norm_eta": 3.210259848510038e-05,
+        "final_bound": 0.004764448014328882,
+        "max_violation": 0.0,
+        "strictly_bounded": true
+      },
+      {
+        "name": "torque_saturated_only",
+        "desc": "力矩请求超限",
+        "v": [
+          0.1,
+          1.5
+        ],
+        "eta0": [
+          0.8,
+          -1.2
+        ],
+        "norm_eta0": 1.4422205101855958,
+        "final_time_s": 0.5,
+        "final_norm_eta": 5.56557714102118e-09,
+        "final_bound": 0.009717605358624547,
+        "max_violation": 0.0,
+        "strictly_bounded": true
+      },
+      {
+        "name": "both_saturated",
+        "desc": "平动与力矩两者同时超限",
+        "v": [
+          2.0,
+          2.0
+        ],
+        "eta0": [
+          -1.5,
+          1.0
+        ],
+        "norm_eta0": 1.8027756377319946,
+        "final_time_s": 0.5,
+        "final_norm_eta": 3.7159836360240413e-09,
+        "final_bound": 0.012147006698280682,
+        "max_violation": 0.0,
+        "strictly_bounded": true
+      },
+      {
+        "name": "boundary_sum1",
+        "desc": "分配器分支边界点",
+        "v": [
+          0.7,
+          0.3
+        ],
+        "eta0": [
+          0.5,
+          -0.5
+        ],
+        "norm_eta0": 0.7071067811865476,
+        "final_time_s": 0.5,
+        "final_norm_eta": 2.9544328910092352e-05,
+        "final_bound": 0.004764448014328882,
+        "max_violation": 0.0,
+        "strictly_bounded": true
+      }
+    ]
+  },
+  "conclusion_and_boundaries": {
+    "certification_status": "passed_frozen_request_fast_subsystem",
+    "formal_statement": "在当前对称执行能力配置、请求量冻结的条件下，抗饱和子系统相对于其请求相关平衡点具有一致指数收敛性质。",
+    "strict_boundaries": "严禁宣称完整闭环稳定已证明，亦暂不宣布奇异摄动条件已满足。下一步须研究请求时变 v(t) 产生动平衡移动对降阶系统的持续扰动与持续饱和损失。"
+  }
+}

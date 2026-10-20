@@ -1,0 +1,261 @@
+{
+  "date": "2026-10-20",
+  "purpose": "SHA256 of uploaded materials; not collection-time certificate",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": ".gitignore",
+      "size": 54,
+      "sha256": "d10690d28609f1271fff85ec911bbf2b2d11d0477ed3d079170f3044105b1218"
+    },
+    {
+      "path": "data/raw_105_sha256.json",
+      "size": 48932,
+      "sha256": "fcb08210533af71569e0ea12bbc2d4b304330258d462148c7f7df6306577df8b"
+    },
+    {
+      "path": "docs/01_研究方向与创新点.md",
+      "size": 2314,
+      "sha256": "a156623048d9973150dffd511527f66552c71f58cf14bebdf88cf42c1b1e85ee"
+    },
+    {
+      "path": "docs/02_论文闭环逻辑与章节安排.md",
+      "size": 3508,
+      "sha256": "1e49d3d227654d633804aa93f0b49d8d8aacd6e22d25d09758b6d30f3edad4bf"
+    },
+    {
+      "path": "docs/03_材料与复算说明.md",
+      "size": 2990,
+      "sha256": "f3ff03f2e88a416b081a6708aa61558913025187e5391a6ac76dda8a77af3db5"
+    },
+    {
+      "path": "materials/00_写作入口与来源清单/00_论文写作事实清单与终版入口.md",
+      "size": 18430,
+      "sha256": "ab78a149f71a8209ffd278e952f36634d71b758ede0a35f845314bff4d438e2b"
+    },
+    {
+      "path": "materials/00_写作入口与来源清单/file_manifest_and_hashes.json",
+      "size": 9939,
+      "sha256": "3b297766a6686f57e3de1ed7d758acec25906d18d764c3990ff8978c54d75cb0"
+    },
+    {
+      "path": "materials/00_论文写作事实清单与终版入口.md",
+      "size": 18424,
+      "sha256": "ce406afdb7181fa3d633c44126c107e8fddb38af7cb7ad42d19be8d5fc725cfa"
+    },
+    {
+      "path": "materials/01_理论分析与连续模型/continuous_closed_loop_model.py",
+      "size": 121257,
+      "sha256": "67621f1acee083c4f51a30b8fcdee2156a55686ea59d3763bbe1de50feb4a04b"
+    },
+    {
+      "path": "materials/01_理论分析与连续模型/frozen_request_fast_results.json",
+      "size": 17824,
+      "sha256": "dd5c299d6289f0c957de646ee9ca87725ca8df38058c5dd12bcfbf256dff54b8"
+    },
+    {
+      "path": "materials/01_理论分析与连续模型/frozen_request_fast_subsystem.py",
+      "size": 23322,
+      "sha256": "892ac3f5aa4edd93a90ca89a10314a59a12c812935d529807db472c208cb7317"
+    },
+    {
+      "path": "materials/01_理论分析与连续模型/local_linearization_stability_analysis.py",
+      "size": 29671,
+      "sha256": "86a4bb5ecaf0fdedf451c5b8a149058a418a130cee6a87f031bb58c2554b77c2"
+    },
+    {
+      "path": "materials/01_理论分析与连续模型/local_linearization_stability_results.json",
+      "size": 65877,
+      "sha256": "bc339caa5dcabe2bffc24444644ad3ee7bd5cac5feb8cb916928bb6123572fbc"
+    },
+    {
+      "path": "materials/01_理论分析与连续模型/time_varying_request_fast_results.json",
+      "size": 9841,
+      "sha256": "e8ce4204ad1279c41624de451c93a0965a4d3d7d80a974b82a072e62e27e08ae"
+    },
+    {
+      "path": "materials/01_理论分析与连续模型/time_varying_request_fast_subsystem.py",
+      "size": 28843,
+      "sha256": "3cd44fa10e9975a247d116be2a11e365594209d4934bbe7d79cab3da6fa5be74"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/config_e5_final.py",
+      "size": 4640,
+      "sha256": "e80d1bf628d9c930b2aaf0183eccd508312a777a29efc6a6fa0637373357b2c3"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/controller_e5_final_lc.py",
+      "size": 11469,
+      "sha256": "cda4e3b6f3f10297df0ece86b3ea3b953e2cf6b2e847583c1aff23464ee78bd1"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/EXP5_OFFLINE_FIXED_MODULATION_BENCHMARK.csv",
+      "size": 687,
+      "sha256": "0c62dbea24e1899fa775f9721bc44377cb21a5f5562049b6f222c7beecfa0709"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/EXP5_OFFLINE_FIXED_MODULATION_COMPARISON.png",
+      "size": 539126,
+      "sha256": "28755d1f8ce77a43ce7fb206566b366bd87ea1408ce810f1e4d49d8116d25d6d"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/EXP5_SIMULATION_EXPLANATION.md",
+      "size": 6872,
+      "sha256": "42f3d33d8933ff4a319a38ff8245dfa9dd4fcb7a1b4419d1d01514dab012c866"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/EXP5_UNIFIED_SATURATION_BENCHMARK.csv",
+      "size": 1018,
+      "sha256": "160e23e665eafa846458bfdad2b3b6586f1c021b56a55623083699013c3ffff8"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/EXP5_UNIFIED_SATURATION_COMPARISON.png",
+      "size": 680762,
+      "sha256": "625e10ffe951def1296608e4595464fc68f4e4a83cda92db9cdb783ccce9e66a"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/run_offline_fixed_modulation_benchmark.py",
+      "size": 16302,
+      "sha256": "dcc89ca3abd033e4e44ddc537dbce1473bfb50dff2ae9094cf7a3da1298396a0"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/run_unified_saturation_benchmark.py",
+      "size": 13921,
+      "sha256": "7e591484a45797b96d1a7f9cd9dbe5d8a971249dc84282cb111a2932d63ae3e6"
+    },
+    {
+      "path": "materials/03_实物实验统计与图表/audit_lc_mechanism.py",
+      "size": 19728,
+      "sha256": "b90a7d497dc2899e2144fe6d578deadae15df285a28e9d7fc593291d1a43323e"
+    },
+    {
+      "path": "materials/03_实物实验统计与图表/EXP5_35BLOCKS_105TRIALS_COMPREHENSIVE_ANALYSIS.png",
+      "size": 1082170,
+      "sha256": "75dd77a50de864c2579658fda2c98456753eaffebce9dce1e79d8c5263bc292b"
+    },
+    {
+      "path": "materials/03_实物实验统计与图表/EXP5_35BLOCKS_105TRIALS_TRAJECTORY_PROFILES.png",
+      "size": 1778171,
+      "sha256": "b3b9fe8eb457a0b65a55acb85d9e6f844dbcb70f10b3b265179a2662a511e1bd"
+    },
+    {
+      "path": "materials/03_实物实验统计与图表/EXP5_35BLOCKS_DISTRIBUTION_AND_PAIRED_DIFFERENCES.png",
+      "size": 937020,
+      "sha256": "7e37b065897df29a60a97826f8b764ae9eb2728a49496d7e70ff3d550a3a3470"
+    },
+    {
+      "path": "materials/03_实物实验统计与图表/EXP5_35BLOCKS_REPRESENTATIVE_TIME_SERIES.png",
+      "size": 2959049,
+      "sha256": "9733b586af705f65ab2dd50e29514c0a63d65d275fd94277a90fcaab14009abc"
+    },
+    {
+      "path": "materials/03_实物实验统计与图表/EXP5_FORMAL_35BLOCKS_MASTER_DATA.csv",
+      "size": 29997,
+      "sha256": "a5ab8dd584df984236503c6b3a9ac75ac52f4556637d17cb1070d94300bee8b3"
+    },
+    {
+      "path": "materials/03_实物实验统计与图表/EXP5_MECHANISM_ANALYSIS_REPORT.md",
+      "size": 18246,
+      "sha256": "c6852cb68e208be1a6d50db958f0a5eca94de6572f0913ba89d93c53b4387d6a"
+    },
+    {
+      "path": "materials/03_实物实验统计与图表/EXP5_MECHANISM_DISCREPANCY_TO_RHO_VERIFICATION.png",
+      "size": 1102193,
+      "sha256": "a9cf1bab11e0b3c07176b86baa5e015796b7e0e2d70b7d35a93df37ef566500b"
+    },
+    {
+      "path": "materials/03_实物实验统计与图表/EXP5_TABLE1_FINAL_SUMMARY_STATISTICS.csv",
+      "size": 4657,
+      "sha256": "d9d54021081de000b5c6dc6c2c00dd387bf86e9f43f1aa6e2b08eeeec2288646"
+    },
+    {
+      "path": "materials/03_实物实验统计与图表/EXP5_TABLE2_PAIRED_DIFFERENCES_AND_TESTS.csv",
+      "size": 4038,
+      "sha256": "10e65060f8b5a54d1eea5df645e1feb8b299171c6d19f593fae822dc0996c79a"
+    },
+    {
+      "path": "materials/03_实物实验统计与图表/EXP5_TABLE3_DATA_QUALITY_AUDIT.csv",
+      "size": 896,
+      "sha256": "a0b543561b5bf1a7aa4e8b1293e5661831793f1b4ef847d7bef3eafb12c7e0a0"
+    },
+    {
+      "path": "materials/03_实物实验统计与图表/plot_mechanism_analysis.py",
+      "size": 19288,
+      "sha256": "dd0a4f635b216d2180459158642c153d101aaae200dd901616b9b8a95090ad93"
+    },
+    {
+      "path": "materials/04_参数身份与对应关系/parameter_identity_and_mismatch_ledger.json",
+      "size": 1592,
+      "sha256": "d3f87c96d9db5415ac5a9088ddd5f1e2d8daa2529d57d95475fc08040ff055eb"
+    },
+    {
+      "path": "materials/04_参数身份与对应关系/parameter_identity_and_mismatch_ledger.md",
+      "size": 4180,
+      "sha256": "74e36f3fcbb33daa66cbef5b493cf99467c73d037cb298ae23ccd3c750935466"
+    },
+    {
+      "path": "materials/05_正式固件与原始数据索引/firmware/controller_e5_blnn_lc.c",
+      "size": 14574,
+      "sha256": "87fa7f7046487dfeeb71c9e504d275a9278a54f80c164d84009d2c3cf51a4af3"
+    },
+    {
+      "path": "materials/05_正式固件与原始数据索引/firmware/controller_e5_blnn_lc.h",
+      "size": 5938,
+      "sha256": "3ee89b78445766aeac89c49e6747a9e80b511fc8ded2b762fd0d604f8562972f"
+    },
+    {
+      "path": "materials/05_正式固件与原始数据索引/firmware/experiment3_config.h",
+      "size": 4056,
+      "sha256": "a6212fce279810cc34643cb577f2027adfce8e4dda619541345122dcebb8f805"
+    },
+    {
+      "path": "materials/05_正式固件与原始数据索引/firmware/experiment5_config.h",
+      "size": 9052,
+      "sha256": "787dbe00b9a951604e4ff2dbdac45811161625e294eb77db39256d21098ccfbc"
+    },
+    {
+      "path": "materials/05_正式固件与原始数据索引/firmware/motor_task.c",
+      "size": 29222,
+      "sha256": "a60a55a4879f1175a332e53b8e0f94eca4c0e6f817a8c7766a9248a93a0fecd0"
+    },
+    {
+      "path": "materials/05_正式固件与原始数据索引/firmware/motor_task.h",
+      "size": 5429,
+      "sha256": "583a0b226600c1e431f3feca0cde6b4a6b6dd90ad0830b27cf5b44fe9a78d69f"
+    },
+    {
+      "path": "materials/05_正式固件与原始数据索引/raw_experiment_data_index.md",
+      "size": 10311,
+      "sha256": "21e4e735c12f7e3932d1899834c167f4c0d314edc388a1a869ef7535885bbe2e"
+    },
+    {
+      "path": "materials/06_实物补测_探索性/all_attempts.csv",
+      "size": 4258,
+      "sha256": "75643a2878eac7da945eb878256c4dc4c9e9b6e46817c7ada52101ceef12716c"
+    },
+    {
+      "path": "materials/06_实物补测_探索性/paired_comparisons.json",
+      "size": 1882,
+      "sha256": "b6ad5137351045aaef4ac79c843d8632a9d938f94f45dc88e95ed453f4b49d68"
+    },
+    {
+      "path": "materials/06_实物补测_探索性/supplement_protocol.json",
+      "size": 2893,
+      "sha256": "99f3aef3cf32d0bd1c2879865ceeb199cab0966ab98140617573cfac954096ef"
+    },
+    {
+      "path": "README.md",
+      "size": 2147,
+      "sha256": "8e7f75bed8b03e6806de10169c5c224bb05a9901a4758413cc38f7a5c36cd12a"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 34,
+      "sha256": "0c3467b14c7d0ecea41f415c0b49c71196eb4e93d55fd3d82b0c8576d231ff99"
+    }
+  ]
+}

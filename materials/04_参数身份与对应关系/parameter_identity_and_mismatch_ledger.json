@@ -1,0 +1,34 @@
+{
+  "parameter_ledger_version": "final_locked_v2_timing_belt",
+  "transmission_type": "双侧同步带传动 (Timing Belt Drive)",
+  "mass_identities": {
+    "measured_mechanical_mass": {
+      "symbol": "m_mech",
+      "value_kg": 3.0,
+      "definition": "物理实验平台空载门架双驱台车、同步带机构与滑块的实测秤重机械质量",
+      "used_in": "continuous_closed_loop_model.py (m_mech_kg=3.0), config_e5_final.py (m_G=3.0)"
+    },
+    "plant_hypothesis_mass": {
+      "symbol": "m_G",
+      "value_kg": 4.0,
+      "definition": "部分早期离线仿真中历史沿用的被控对象假设参数（历史算例假设值，非实测秤重值）",
+      "used_in": "部分早期历史探索脚本"
+    },
+    "controller_nominal_mass_coefficient": {
+      "symbol": "M_hat_y",
+      "value_kg": 12.445,
+      "definition": "嵌入式固件沿用的控制器内部名义模型参数，追溯来源为直接沿用前期第3次实验配置文件 experiment3_config.h 中的 EXP3_C2_M_Y 设定值",
+      "used_in": "config_e5_final.py, experiment5_config.h, continuous_closed_loop_model.py"
+    }
+  },
+  "mismatch_ratio": {
+    "nominal_to_measured": 4.148333333333333
+  },
+  "stability_invariance_verification": {
+    "equilibrium_dependency_on_mass": "None (mass cancels algebraically in static condition)",
+    "spectral_abscissa_at_3kg": -0.18000000,
+    "spectral_abscissa_at_4kg": -0.18000000,
+    "is_hurwitz_both_cases": true,
+    "conclusion": "无论是实测3kg还是历史假设4kg，局部线性化稳定性结论均完全一致且数值稳定。"
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "audit_timestamp": "2026-10-20T08:15:00Z",
+  "theoretical_constants": {
+    "K_aw": 20.0,
+    "lambda_aw": 20.0,
+    "L": 40.0,
+    "inv_sqrt2": 0.7071067811865475,
+    "iss_gain_analytical": 0.07071067811865475
+  },
+  "rate_limiter_and_hardware_spec": {
+    "slew_rate_setting": "75.0 counts/control_step",
+    "control_cycle_ms": 1.0,
+    "command_rate_limit_counts_per_sec": 75000.0,
+    "thrust_rate_limit_single_N_per_sec": 464.8437525,
+    "scope_of_limiter": "该限制严格仅作用于神经网络补偿量 n_s 的差分更新，绝不限制基础滑模/前馈控制量 b，亦不限制全量请求 v = b + n_s。基础控制量 b 的动态仍取决于机械跟踪速度与外生参考阶跃。",
+    "bus_interface": "CAN bus to Electronic Speed Controllers (ESC), NOT DAC/PWM"
+  },
+  "partition_jacobian_and_lipschitz_verification": {
+    "passed": true,
+    "max_jacobian_diff": 1.5215562143566785e-10,
+    "theoretical_bound_inv_sqrt2": 0.7071067811865475,
+    "max_lipschitz_ratio_random": 0.7071043468299189,
+    "max_lipschitz_ratio_cross_boundary": 0.572061402811177,
+    "worst_pair_random": {
+      "v1": [
+        0.7800651382088679,
+        -0.2698096963819241
+      ],
+      "v2": [
+        1.3003994898657165,
+        -0.7928819588989882
+      ],
+      "dist": 0.7378024324498215,
+      "h1": [
+        -0.024937417295396003,
+        0.0
+      ],
+      "h2": [
+        -0.5466407243823523,
+        0.0
+      ],
+      "ratio": 0.7071043468299189
+    },
+    "region_check_records": [
+      {
+        "desc": "Region 1 内部",
+        "vbar": [
+          0.3,
+          0.2
+        ],
+        "region": "Region_1_unconstrained",
+        "Dh_analytic": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "Dh_numeric": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "norm_analytic": 0.0,
+        "diff": 0.0
+      },
+      {
+        "desc": "Region 2 内部",
+        "vbar": [
+          0.8,
+          0.3
+        ],
+        "region": "Region_2_trans_constrained_only",
+        "Dh_analytic": [
+          [
+            -0.5,
+            -0.5
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "Dh_numeric": [
+          [
+            -0.5000000000143778,
+            -0.4999999999588667
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "norm_analytic": 0.7071067811865476,
+        "diff": 4.11333189731522e-11
+      },
+      {
+        "desc": "Region 2 内部负平动",
+        "vbar": [
+          -0.7,
+          0.2
+        ],
+        "region": "Region_1_unconstrained",
+        "Dh_analytic": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "Dh_numeric": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "norm_analytic": 0.0,
+        "diff": 0.0
+      },
+      {
+        "desc": "Region 3 内部 (v_F=0)",
+        "vbar": [
+          0.0,
+          1.5
+        ],
+        "region": "Region_3_or_4_torque_constrained",
+        "Dh_analytic": [
+          [
+            -0.5,
+            0.0
+          ],
+          [
+            0.0,
+            -0.5
+          ]
+        ],
+        "Dh_numeric": [
+          [
+            -0.5,
+            0.0
+          ],
+          [
+            0.0,
+            -0.4999999998478444
+          ]
+        ],
+        "norm_analytic": 0.5,
+        "diff": 1.5215562143566785e-10
+      },
+      {
+        "desc": "Region 4 内部双超限",
+        "vbar": [
+          1.5,
+          1.5
+        ],
+        "region": "Region_3_or_4_torque_constrained",
+        "Dh_analytic": [
+          [
+            -0.5,
+            0.0
+          ],
+          [
+            0.0,
+            -0.5
+          ]
+        ],
+        "Dh_numeric": [
+          [
+            -0.4999999999588667,
+            0.0
+          ],
+          [
+            0.0,
+            -0.4999999998478444
+          ]
+        ],
+        "norm_analytic": 0.5,
+        "diff": 1.5215562143566785e-10
+      },
+      {
+        "desc": "Region 4 内部双负超限",
+        "vbar": [
+          -2.0,
+          -1.8
+        ],
+        "region": "Region_3_or_4_torque_constrained",
+        "Dh_analytic": [
+          [
+            -0.5,
+            0.0
+          ],
+          [
+            0.0,
+            -0.5
+          ]
+        ],
+        "Dh_numeric": [
+          [
+            -0.5000000000143778,
+            0.0
+          ],
+          [
+            0.0,
+            -0.4999999999588667
+          ]
+        ],
+        "norm_analytic": 0.5,
+        "diff": 4.11333189731522e-11
+      }
+    ]
+  },
+  "time_varying_iss_trajectories_verification": {
+    "all_trajectories_passed": true,
+    "max_integral_violation": 0.0,
+    "max_sup_violation": 0.0,
+    "trajectories": [
+      {
+        "name": "elliptical_cross_branch",
+        "desc": "中速椭圆跨区分支轨迹 (循环穿越 1, 2, 4 分区)",
+        "sup_vdot": 9.604686356149273,
+        "norm_eta0": 0.7211102550927979,
+        "peak_actual_norm_eta": 0.7211102550927979,
+        "peak_conv_bound": 0.7211102550927979,
+        "peak_sup_bound": 1.4002641404531042,
+        "max_violation_conv": 0.0,
+        "max_violation_sup": -0.5814467877119043,
+        "strictly_bounded_conv": true,
+        "strictly_bounded_sup": true
+      },
+      {
+        "name": "high_frequency_cross_branch",
+        "desc": "高频剧烈振荡轨迹 (深度饱和与快速切换)",
+        "sup_vdot": 39.96198193283211,
+        "norm_eta0": 1.2806248474865698,
+        "peak_actual_norm_eta": 1.2806248474865698,
+        "peak_conv_bound": 2.2343027065674215,
+        "peak_sup_bound": 4.106363688922558,
+        "max_violation_conv": 0.0,
+        "max_violation_sup": -2.3476738790603386,
+        "strictly_bounded_conv": true,
+        "strictly_bounded_sup": true
+      },
+      {
+        "name": "linear_ramp_diagonal",
+        "desc": "对角斜坡贯穿全象限轨迹",
+        "sup_vdot": 5.3814496188294845,
+        "norm_eta0": 0.28284271247461906,
+        "peak_actual_norm_eta": 0.28284271247461895,
+        "peak_conv_bound": 0.3805413349503743,
+        "peak_sup_bound": 0.663368664283428,
+        "max_violation_conv": -1.1102230246251565e-16,
+        "max_violation_sup": -0.2758181678880041,
+        "strictly_bounded_conv": true,
+        "strictly_bounded_sup": true
+      },
+      {
+        "name": "smooth_step_transition",
+        "desc": "平滑 S 型跃迁轨迹 (从可行域跃至深饱和区)",
+        "sup_vdot": 6.726812023536855,
+        "norm_eta0": 0.0,
+        "peak_actual_norm_eta": 0.11119936931075022,
+        "peak_conv_bound": 0.4113639676087425,
+        "peak_sup_bound": 0.47565743976101116,
+        "max_violation_conv": 0.0,
+        "max_violation_sup": -0.3644580704502609,
+        "strictly_bounded_conv": true,
+        "strictly_bounded_sup": true
+      }
+    ]
+  },
+  "sampled_data_step_and_hold_verification": {
+    "passed": true,
+    "n_steps_tested": 1000,
+    "max_identity_residual": 2.7755575615628914e-17,
+    "min_jump_bound_slack": 0.0,
+    "max_inter_sample_decay_violation": 0.0,
+    "exp_decay_per_step": 0.9900498337491681,
+    "sample_step_records": [
+      {
+        "step": 0,
+        "time_s": 0.0,
+        "norm_eta_minus": 0.0,
+        "norm_eta_plus": 0.0,
+        "norm_eta_end": 0.0,
+        "delta_v_norm": 0.13258252147247765
+      },
+      {
+        "step": 200,
+        "time_s": 0.2,
+        "norm_eta_minus": 0.09504827194789103,
+        "norm_eta_plus": 0.09512030364960578,
+        "norm_eta_end": 0.09317929001452373,
+        "delta_v_norm": 0.016829949725423423
+      },
+      {
+        "step": 400,
+        "time_s": 0.4,
+        "norm_eta_minus": 0.1379632262114193,
+        "norm_eta_plus": 0.14615499732261125,
+        "norm_eta_end": 0.14037956829150422,
+        "delta_v_norm": 0.011589628545541467
+      },
+      {
+        "step": 600,
+        "time_s": 0.6,
+        "norm_eta_minus": 0.1234461331814204,
+        "norm_eta_plus": 0.1287822813173168,
+        "norm_eta_end": 0.123722731149466,
+        "delta_v_norm": 0.012117964892122218
+      },
+      {
+        "step": 800,
+        "time_s": 0.8,
+        "norm_eta_minus": 0.05999191814497628,
+        "norm_eta_plus": 0.05999191814497628,
+        "norm_eta_end": 0.05880282093619129,
+        "delta_v_norm": 0.00596995283577348
+      }
+    ]
+  },
+  "conclusion_and_boundaries": {
+    "certification_status": "passed_time_varying_request_fast_subsystem",
+    "formal_statement": "在当前对称执行能力配置下，时变请求抗饱和子系统相对于动平衡点 h(v(t)) 严格满足输入至状态稳定性 (ISS)：对任意绝对连续请求 v(t)，偏差范数上界恒满足 ||eta(t)|| <= exp(-10(t - t_0)) ||eta(t_0)|| + 0.0707107 * sup ||\\dot{v}||；对于 1 ms 采样保持请求，离散跳变严格满足 eta^+ = eta^- - \\Delta h 且在步间按 exp(-0.01) 收缩。",
+    "strict_boundaries": "本结论仅闭合了“给定请求变化率下抗饱和跟随误差的有界性输入通道”；完整闭环系统的 UUB 稳定性和奇异摄动时间尺度解耦条件仍【未证明 (not_proved)】。下一步必须将该跟随界代入慢子系统，分析动态饱和残差对机械位置误差和神经网络权值自适应的逆向耦合影响。"
+  }
+}

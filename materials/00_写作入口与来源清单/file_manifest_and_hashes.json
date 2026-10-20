@@ -1,0 +1,215 @@
+{
+  "total_files": 35,
+  "files": [
+    {
+      "relative_path": "00_写作入口与来源清单\\00_论文写作事实清单与终版入口.md",
+      "file_name": "00_论文写作事实清单与终版入口.md",
+      "sha256": "fcddf8fdf7daed5e8a34a4334c395041324bee15203b83b096e2e4ff703c065a",
+      "size_bytes": 18407
+    },
+    {
+      "relative_path": "00_论文写作事实清单与终版入口.md",
+      "file_name": "00_论文写作事实清单与终版入口.md",
+      "sha256": "fcddf8fdf7daed5e8a34a4334c395041324bee15203b83b096e2e4ff703c065a",
+      "size_bytes": 18407
+    },
+    {
+      "relative_path": "01_理论分析与连续模型\\continuous_closed_loop_model.py",
+      "file_name": "continuous_closed_loop_model.py",
+      "sha256": "67621f1acee083c4f51a30b8fcdee2156a55686ea59d3763bbe1de50feb4a04b",
+      "size_bytes": 121257
+    },
+    {
+      "relative_path": "01_理论分析与连续模型\\frozen_request_fast_results.json",
+      "file_name": "frozen_request_fast_results.json",
+      "sha256": "dd5c299d6289f0c957de646ee9ca87725ca8df38058c5dd12bcfbf256dff54b8",
+      "size_bytes": 17824
+    },
+    {
+      "relative_path": "01_理论分析与连续模型\\frozen_request_fast_subsystem.py",
+      "file_name": "frozen_request_fast_subsystem.py",
+      "sha256": "892ac3f5aa4edd93a90ca89a10314a59a12c812935d529807db472c208cb7317",
+      "size_bytes": 23322
+    },
+    {
+      "relative_path": "01_理论分析与连续模型\\local_linearization_stability_analysis.py",
+      "file_name": "local_linearization_stability_analysis.py",
+      "sha256": "86a4bb5ecaf0fdedf451c5b8a149058a418a130cee6a87f031bb58c2554b77c2",
+      "size_bytes": 29671
+    },
+    {
+      "relative_path": "01_理论分析与连续模型\\local_linearization_stability_results.json",
+      "file_name": "local_linearization_stability_results.json",
+      "sha256": "bc339caa5dcabe2bffc24444644ad3ee7bd5cac5feb8cb916928bb6123572fbc",
+      "size_bytes": 65877
+    },
+    {
+      "relative_path": "01_理论分析与连续模型\\time_varying_request_fast_results.json",
+      "file_name": "time_varying_request_fast_results.json",
+      "sha256": "e8ce4204ad1279c41624de451c93a0965a4d3d7d80a974b82a072e62e27e08ae",
+      "size_bytes": 9841
+    },
+    {
+      "relative_path": "01_理论分析与连续模型\\time_varying_request_fast_subsystem.py",
+      "file_name": "time_varying_request_fast_subsystem.py",
+      "sha256": "3cd44fa10e9975a247d116be2a11e365594209d4934bbe7d79cab3da6fa5be74",
+      "size_bytes": 28843
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\EXP5_OFFLINE_FIXED_MODULATION_BENCHMARK.csv",
+      "file_name": "EXP5_OFFLINE_FIXED_MODULATION_BENCHMARK.csv",
+      "sha256": "0c62dbea24e1899fa775f9721bc44377cb21a5f5562049b6f222c7beecfa0709",
+      "size_bytes": 687
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\EXP5_OFFLINE_FIXED_MODULATION_COMPARISON.png",
+      "file_name": "EXP5_OFFLINE_FIXED_MODULATION_COMPARISON.png",
+      "sha256": "28755d1f8ce77a43ce7fb206566b366bd87ea1408ce810f1e4d49d8116d25d6d",
+      "size_bytes": 539126
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\EXP5_SIMULATION_EXPLANATION.md",
+      "file_name": "EXP5_SIMULATION_EXPLANATION.md",
+      "sha256": "9f94149a134ee3a0194a70875ee504f02a3c0e102e655824f04c5e323c891332",
+      "size_bytes": 7339
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\EXP5_UNIFIED_SATURATION_BENCHMARK.csv",
+      "file_name": "EXP5_UNIFIED_SATURATION_BENCHMARK.csv",
+      "sha256": "160e23e665eafa846458bfdad2b3b6586f1c021b56a55623083699013c3ffff8",
+      "size_bytes": 1018
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\EXP5_UNIFIED_SATURATION_COMPARISON.png",
+      "file_name": "EXP5_UNIFIED_SATURATION_COMPARISON.png",
+      "sha256": "625e10ffe951def1296608e4595464fc68f4e4a83cda92db9cdb783ccce9e66a",
+      "size_bytes": 680762
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\config_e5_final.py",
+      "file_name": "config_e5_final.py",
+      "sha256": "e80d1bf628d9c930b2aaf0183eccd508312a777a29efc6a6fa0637373357b2c3",
+      "size_bytes": 4640
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\controller_e5_final_lc.py",
+      "file_name": "controller_e5_final_lc.py",
+      "sha256": "cda4e3b6f3f10297df0ece86b3ea3b953e2cf6b2e847583c1aff23464ee78bd1",
+      "size_bytes": 11469
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\run_offline_fixed_modulation_benchmark.py",
+      "file_name": "run_offline_fixed_modulation_benchmark.py",
+      "sha256": "dcc89ca3abd033e4e44ddc537dbce1473bfb50dff2ae9094cf7a3da1298396a0",
+      "size_bytes": 16302
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\run_unified_saturation_benchmark.py",
+      "file_name": "run_unified_saturation_benchmark.py",
+      "sha256": "7e591484a45797b96d1a7f9cd9dbe5d8a971249dc84282cb111a2932d63ae3e6",
+      "size_bytes": 13921
+    },
+    {
+      "relative_path": "03_实物实验统计与图表\\EXP5_35BLOCKS_105TRIALS_COMPREHENSIVE_ANALYSIS.png",
+      "file_name": "EXP5_35BLOCKS_105TRIALS_COMPREHENSIVE_ANALYSIS.png",
+      "sha256": "75dd77a50de864c2579658fda2c98456753eaffebce9dce1e79d8c5263bc292b",
+      "size_bytes": 1082170
+    },
+    {
+      "relative_path": "03_实物实验统计与图表\\EXP5_35BLOCKS_105TRIALS_TRAJECTORY_PROFILES.png",
+      "file_name": "EXP5_35BLOCKS_105TRIALS_TRAJECTORY_PROFILES.png",
+      "sha256": "b3b9fe8eb457a0b65a55acb85d9e6f844dbcb70f10b3b265179a2662a511e1bd",
+      "size_bytes": 1778171
+    },
+    {
+      "relative_path": "03_实物实验统计与图表\\EXP5_35BLOCKS_DISTRIBUTION_AND_PAIRED_DIFFERENCES.png",
+      "file_name": "EXP5_35BLOCKS_DISTRIBUTION_AND_PAIRED_DIFFERENCES.png",
+      "sha256": "7e37b065897df29a60a97826f8b764ae9eb2728a49496d7e70ff3d550a3a3470",
+      "size_bytes": 937020
+    },
+    {
+      "relative_path": "03_实物实验统计与图表\\EXP5_35BLOCKS_REPRESENTATIVE_TIME_SERIES.png",
+      "file_name": "EXP5_35BLOCKS_REPRESENTATIVE_TIME_SERIES.png",
+      "sha256": "9733b586af705f65ab2dd50e29514c0a63d65d275fd94277a90fcaab14009abc",
+      "size_bytes": 2959049
+    },
+    {
+      "relative_path": "03_实物实验统计与图表\\EXP5_MECHANISM_ANALYSIS_REPORT.md",
+      "file_name": "EXP5_MECHANISM_ANALYSIS_REPORT.md",
+      "sha256": "a6f7cfc49acd0edca018ab133740819ddf6da0789d872e06eabf447a99f72986",
+      "size_bytes": 18182
+    },
+    {
+      "relative_path": "03_实物实验统计与图表\\EXP5_MECHANISM_DISCREPANCY_TO_RHO_VERIFICATION.png",
+      "file_name": "EXP5_MECHANISM_DISCREPANCY_TO_RHO_VERIFICATION.png",
+      "sha256": "a9cf1bab11e0b3c07176b86baa5e015796b7e0e2d70b7d35a93df37ef566500b",
+      "size_bytes": 1102193
+    },
+    {
+      "relative_path": "03_实物实验统计与图表\\EXP5_TABLE1_FINAL_SUMMARY_STATISTICS.csv",
+      "file_name": "EXP5_TABLE1_FINAL_SUMMARY_STATISTICS.csv",
+      "sha256": "d9d54021081de000b5c6dc6c2c00dd387bf86e9f43f1aa6e2b08eeeec2288646",
+      "size_bytes": 4657
+    },
+    {
+      "relative_path": "03_实物实验统计与图表\\EXP5_TABLE2_PAIRED_DIFFERENCES_AND_TESTS.csv",
+      "file_name": "EXP5_TABLE2_PAIRED_DIFFERENCES_AND_TESTS.csv",
+      "sha256": "10e65060f8b5a54d1eea5df645e1feb8b299171c6d19f593fae822dc0996c79a",
+      "size_bytes": 4038
+    },
+    {
+      "relative_path": "03_实物实验统计与图表\\EXP5_TABLE3_DATA_QUALITY_AUDIT.csv",
+      "file_name": "EXP5_TABLE3_DATA_QUALITY_AUDIT.csv",
+      "sha256": "a0b543561b5bf1a7aa4e8b1293e5661831793f1b4ef847d7bef3eafb12c7e0a0",
+      "size_bytes": 896
+    },
+    {
+      "relative_path": "03_实物实验统计与图表\\audit_lc_mechanism.py",
+      "file_name": "audit_lc_mechanism.py",
+      "sha256": "b90a7d497dc2899e2144fe6d578deadae15df285a28e9d7fc593291d1a43323e",
+      "size_bytes": 19728
+    },
+    {
+      "relative_path": "03_实物实验统计与图表\\plot_mechanism_analysis.py",
+      "file_name": "plot_mechanism_analysis.py",
+      "sha256": "dd0a4f635b216d2180459158642c153d101aaae200dd901616b9b8a95090ad93",
+      "size_bytes": 19288
+    },
+    {
+      "relative_path": "04_参数身份与对应关系\\parameter_identity_and_mismatch_ledger.json",
+      "file_name": "parameter_identity_and_mismatch_ledger.json",
+      "sha256": "d3f87c96d9db5415ac5a9088ddd5f1e2d8daa2529d57d95475fc08040ff055eb",
+      "size_bytes": 1592
+    },
+    {
+      "relative_path": "04_参数身份与对应关系\\parameter_identity_and_mismatch_ledger.md",
+      "file_name": "parameter_identity_and_mismatch_ledger.md",
+      "sha256": "6743f7f827421fb95e65e86c8f35b3910369d3f070c59237b33b8b3d48e2bd3f",
+      "size_bytes": 4195
+    },
+    {
+      "relative_path": "05_正式固件与原始数据索引\\firmware\\controller_e5_blnn_lc.c",
+      "file_name": "controller_e5_blnn_lc.c",
+      "sha256": "87fa7f7046487dfeeb71c9e504d275a9278a54f80c164d84009d2c3cf51a4af3",
+      "size_bytes": 14574
+    },
+    {
+      "relative_path": "05_正式固件与原始数据索引\\firmware\\experiment3_config.h",
+      "file_name": "experiment3_config.h",
+      "sha256": "a6212fce279810cc34643cb577f2027adfce8e4dda619541345122dcebb8f805",
+      "size_bytes": 4056
+    },
+    {
+      "relative_path": "05_正式固件与原始数据索引\\firmware\\experiment5_config.h",
+      "file_name": "experiment5_config.h",
+      "sha256": "787dbe00b9a951604e4ff2dbdac45811161625e294eb77db39256d21098ccfbc",
+      "size_bytes": 9052
+    },
+    {
+      "relative_path": "05_正式固件与原始数据索引\\raw_experiment_data_index.md",
+      "file_name": "raw_experiment_data_index.md",
+      "sha256": "96cdbbc5292e11edc795745ea34270f92383713260c7c788b1dc42bddcbc3db5",
+      "size_bytes": 10449
+    }
+  ]
+}
