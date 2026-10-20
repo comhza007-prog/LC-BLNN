@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "purpose": "SHA256 of uploaded materials; not collection-time certificate",
+  "purpose": "A foundation + B LC-BLNN mainline writing materials; current file hashes, not collection-time certificate",
   "files": [
     {
       "path": ".gitattributes",
@@ -13,24 +13,34 @@
       "sha256": "d10690d28609f1271fff85ec911bbf2b2d11d0477ed3d079170f3044105b1218"
     },
     {
+      "path": "data/A_foundation_source_manifest.json",
+      "size": 30894,
+      "sha256": "75396d1f23c26e077f1eb81e5906e903acb9a9d289c919c3ba01d0d00ee7e51b"
+    },
+    {
       "path": "data/raw_105_sha256.json",
       "size": 48932,
       "sha256": "fcb08210533af71569e0ea12bbc2d4b304330258d462148c7f7df6306577df8b"
     },
     {
       "path": "docs/01_研究方向与创新点.md",
-      "size": 2314,
-      "sha256": "a156623048d9973150dffd511527f66552c71f58cf14bebdf88cf42c1b1e85ee"
+      "size": 2599,
+      "sha256": "e39ab3ba67fe41d9272cfa6c1b8427bb7628cc6309d93e85d1c58c1f9f52e6fa"
     },
     {
       "path": "docs/02_论文闭环逻辑与章节安排.md",
-      "size": 3508,
-      "sha256": "1e49d3d227654d633804aa93f0b49d8d8aacd6e22d25d09758b6d30f3edad4bf"
+      "size": 4036,
+      "sha256": "cb45e9d51e9a4a497cf1995906d94c4d66e575aa69108f5d59077ee6413e37d8"
     },
     {
       "path": "docs/03_材料与复算说明.md",
-      "size": 2990,
-      "sha256": "f3ff03f2e88a416b081a6708aa61558913025187e5391a6ac76dda8a77af3db5"
+      "size": 3405,
+      "sha256": "fed2c7344a196e136b9fce448dd094a489dcd67b6f4183d0b331bc75cd489e7f"
+    },
+    {
+      "path": "docs/04_A基础与B主线对应.md",
+      "size": 5215,
+      "sha256": "16d172e52784d7e9fa6f6b0f16a79b1dc50f21ab8ae66ee6ccbe75d45d03340b"
     },
     {
       "path": "materials/00_写作入口与来源清单/00_论文写作事实清单与终版入口.md",
@@ -248,9 +258,389 @@
       "sha256": "99f3aef3cf32d0bd1c2879865ceeb199cab0966ab98140617573cfac954096ef"
     },
     {
+      "path": "materials/07_A线基础实验/experiment1_noload/experiment1_summary.json",
+      "size": 9750,
+      "sha256": "5d6b7892dee332f0d8352de055a749186bc8c2fcbe0266629a86ab8e7e4755ba"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment1_noload/Figure_1_Position_tracking.png",
+      "size": 35700,
+      "sha256": "1ee268968f6cd62ba599b319ef63eeb9243ca22bd61e04fd35cab01aa643ba4e"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment1_noload/Figure_2_Synchronization_error.png",
+      "size": 52724,
+      "sha256": "4223ed3f2c990f93158560287b5de5aa71a7a9294ea9fa061b1bffd35b587ced"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment1_noload/Figure_3_Current_response.png",
+      "size": 69560,
+      "sha256": "3d1fa76476d8296018734f3b621032d76d5f0a889fd90f43d9f0ebef532c8458"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment1_noload/Figure_4_Repeatability_summary.png",
+      "size": 26812,
+      "sha256": "1e17358bc0bb793a0861536b9c50514502a566ef74ec1d98cddfe73fed810bd3"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment1_noload/README_实验1封档.txt",
+      "size": 1109,
+      "sha256": "27cc5d04ae11e72813975c9d397edffb473c4a01dbefae5a1a0b10f169ae959a"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment1_noload/当前论文使用说明_20261018.md",
+      "size": 1760,
+      "sha256": "6ccbf892a60770a2490d3630f6c0ad4d2810f6c434e54388a4762518ea1d088a"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment2_loadstep_2kg/Figure_1_Load_step_position_response.png",
+      "size": 81386,
+      "sha256": "6f4f6b04e3d96cdb895e4b33b1e327e6e8b151f4449bcc41da391410c5ff2d66"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment2_loadstep_2kg/Figure_2_Load_step_current_response.png",
+      "size": 658342,
+      "sha256": "5a2b36b0c8432f146b57558865d78e1b6169f2259fbe212694470d681b11ef47"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment2_loadstep_2kg/Figure_3_Loaded_position_tracking.png",
+      "size": 106745,
+      "sha256": "558a75829cdbce4991ed50eed1c243d2c24c4143601e23cdf142fc8db989ddd0"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment2_loadstep_2kg/Figure_4_Loaded_synchronization_error.png",
+      "size": 207197,
+      "sha256": "081392958fe45fcb2e5914218c69b85e9512878381ebfd09bdd8e37eaf6e5336"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment2_loadstep_2kg/Figure_5_No_load_vs_2kg_summary.png",
+      "size": 64209,
+      "sha256": "8c8107b8051d2180ec822749e655292914362185e18345e067bc9c094f7545e2"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment2_loadstep_2kg/README_实验2封档说明.md",
+      "size": 3090,
+      "sha256": "69c10069fe84666401464b00072fad2c16c25def64523b64267fb4f1704b81eb"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment2_loadstep_2kg/实验2统计摘要.json",
+      "size": 16734,
+      "sha256": "9b4e6ac7784d44f6d645b0bd6b4c4858f00044cf58856593f08a2af59d1890ca"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment2_loadstep_2kg/当前论文使用说明_20261018.md",
+      "size": 1824,
+      "sha256": "05cdd5ce011ca9bf472d7c108582ef67b48fc26966ee1295d82959848a27c31b"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2A_I2400_formal/experiment3_config.h",
+      "size": 3433,
+      "sha256": "27f9056bee835d923274880370a2ed4a40c5717060f9295cf1dbe7d4a1d557f0"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2A_I2400_formal/motor_task.c",
+      "size": 13175,
+      "sha256": "1aad24884649a2add7e37f04aeb5a0cff9cd96c8b550d28d4fd6c91de319eff6"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2A_I800_formal/experiment3_config.h",
+      "size": 3432,
+      "sha256": "16eccbcb84aaf03e375bbbce49d8199cd128fa68071dd1ba743c8f35941b9749"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2A_I800_formal/motor_task.c",
+      "size": 13175,
+      "sha256": "1aad24884649a2add7e37f04aeb5a0cff9cd96c8b550d28d4fd6c91de319eff6"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2A_SA_I2400_formal/experiment3_config.h",
+      "size": 3473,
+      "sha256": "1a826d9251e7a2403869972a4cd24cf288d0d0b29a91df7edbbc1cddf0df7eb2"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2A_SA_I2400_formal/motor_task.c",
+      "size": 14670,
+      "sha256": "da0475451d75a7f231ab625e57cb762c8c026b3a4aa6a8d59edd1c1a22bb8470"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2A_SA_I800_formal/experiment3_config.h",
+      "size": 3475,
+      "sha256": "9e4b8ae877e4dc1009f62af9ec1415d7481f7d8e9aa1f9b470017463f1873d18"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2A_SA_I800_formal/motor_task.c",
+      "size": 14670,
+      "sha256": "da0475451d75a7f231ab625e57cb762c8c026b3a4aa6a8d59edd1c1a22bb8470"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2B_I2400_formal/experiment3_config.h",
+      "size": 3766,
+      "sha256": "fb221dede105e1c1e0a96440d9092643488ab9d530213823132fe54bf7c1a0ef"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2B_I2400_formal/motor_task.c",
+      "size": 13831,
+      "sha256": "c05187f3511d7426d87c782dbf305cc6792f859c7d0052070332980403829d60"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2B_I800_formal/experiment3_config.h",
+      "size": 3764,
+      "sha256": "fcf04466651a766d13286fcc8f20f6cc87d42b29608d2d3a02250ee577c14480"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2B_I800_formal/motor_task.c",
+      "size": 13831,
+      "sha256": "c05187f3511d7426d87c782dbf305cc6792f859c7d0052070332980403829d60"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2B_SA_I2400_formal/experiment3_config.h",
+      "size": 3841,
+      "sha256": "6eef2b8058bc999dc6c326c79ed35c3b83b187a34ab9514f60b7fed69096ae2a"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2B_SA_I2400_formal/motor_task.c",
+      "size": 15713,
+      "sha256": "40bbe998bde5a5b3b7f67fb6e63e2083710da5f3589c2884fd6b762afa4ffcbe"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2B_SA_I800_formal/experiment3_config.h",
+      "size": 3839,
+      "sha256": "22f51f34ce578e1f0534c9bf149d0cdb0275aa8b771094feb1f66ef717185f17"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2B_SA_I800_formal/motor_task.c",
+      "size": 15713,
+      "sha256": "40bbe998bde5a5b3b7f67fb6e63e2083710da5f3589c2884fd6b762afa4ffcbe"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/processing/process_exp3_formal.py",
+      "size": 25183,
+      "sha256": "e145b678d0953e78267a8ba521ec7179f40687c5712b0dc5e29ea0d58381b9c7"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/README_实验3封档说明.md",
+      "size": 3131,
+      "sha256": "d0d226ccd9192c7681d3405232b783dc8b1f0664fd94857c2594895ea3b1c70f"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/图1_跟踪与同步性能.png",
+      "size": 83835,
+      "sha256": "415e15db241fc1275f10f5de781e989260b39dca4d11e30a5962f0e0d2b88a08"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/图2_饱和与控制量总变差.png",
+      "size": 87846,
+      "sha256": "6c91746a7c8389b7d4a9529933952b4049ad3b0f1beddae730a7ebadd0fd61c9"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/图3_低限流代表时序.png",
+      "size": 668978,
+      "sha256": "6acf0b471e46a3f763443edf6df764f1752a1ee61e37c6a399d567ba4796428e"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/图4_分配与动态抗饱和状态.png",
+      "size": 80517,
+      "sha256": "a5a0594aaab9c899c5251ebc7b84464eb7f3026fc9224878746419696d5c3f10"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/图5_采集质量与电压漂移.png",
+      "size": 140629,
+      "sha256": "51801392b8ecdf077e97a6527c12acfda8dc7f20d6274a0b6395235ef93c462f"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/实验3分组统计.csv",
+      "size": 8440,
+      "sha256": "50711d7b5ac791fb3287aa0ef528ca41433857c2d4a1d15774b8cb9e87d14c4e"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/实验3协议与质量结论.json",
+      "size": 421,
+      "sha256": "36483e8d9c24a9f9e82e4981ce75c35e2007dacead6a0a6c98237c80c0a82067"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/实验3实际采集顺序.csv",
+      "size": 17701,
+      "sha256": "afe1ba37b123a58a411178d6be21d70da61e4ff6c69f108bdfb1c851d373115d"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/实验3效应对比.csv",
+      "size": 2514,
+      "sha256": "42b6626e02950b6f960e62e8ddbb243ed598041cf3238c70f70bcb9f11887e8c"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/实验3逐文件质量检查.csv",
+      "size": 7222,
+      "sha256": "e6f21410c5ae0946b52a42b50c2b5a4e38fb71354056276bbcb20d4c1b928a6b"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/实验3逐次指标.csv",
+      "size": 16740,
+      "sha256": "0add22ae98255149cdad7bb1744f87360131c0f49592d2123d529bd98bbebe9c"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/封档完成标志.txt",
+      "size": 159,
+      "sha256": "aed4065450cdbca301e5fa6daa9336a0e1f871b726c2b3fb0d76ccc93b94b960"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/当前论文使用说明_20261018.md",
+      "size": 1920,
+      "sha256": "756b84c4473c6f697af1e2489376969e0e3e8be4bdbf79b0fb1253f641029bff"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/formal_source/eassy_exp4_C2B_L1200_R1200_formal/experiment3_config.h",
+      "size": 3982,
+      "sha256": "651f9ab6b7949533ea1773087b29718a6f3f9288795d35e33b841577459c7e4e"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/formal_source/eassy_exp4_C2B_L1200_R1200_formal/motor_task.c",
+      "size": 13842,
+      "sha256": "8184ddf4d42517e379426e41fbad6f656d71b3e4aaa6bb8c58695331d3ba3008"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/formal_source/eassy_exp4_C2B_L1600_R800_formal/experiment3_config.h",
+      "size": 3981,
+      "sha256": "4d9a4d5b4a5c0b8178ab993cd9c8f19d23483f8aeb626e8b1b25d1ae08c9706f"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/formal_source/eassy_exp4_C2B_L1600_R800_formal/motor_task.c",
+      "size": 13842,
+      "sha256": "8184ddf4d42517e379426e41fbad6f656d71b3e4aaa6bb8c58695331d3ba3008"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/formal_source/eassy_exp4_C2B_L800_R1600_formal/experiment3_config.h",
+      "size": 3981,
+      "sha256": "69c346df66875c38cd304875ff96fac1f88ff4fd4b8e53cdb4c743363c7fd9ed"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/formal_source/eassy_exp4_C2B_L800_R1600_formal/motor_task.c",
+      "size": 13842,
+      "sha256": "8184ddf4d42517e379426e41fbad6f656d71b3e4aaa6bb8c58695331d3ba3008"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/formal_source/eassy_exp4_C2B_SA_L1200_R1200_formal/experiment3_config.h",
+      "size": 4057,
+      "sha256": "bddc084e546e50a360ce7e0847faf0d74f5372a481867dbf2c11a751275259f6"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/formal_source/eassy_exp4_C2B_SA_L1200_R1200_formal/motor_task.c",
+      "size": 15834,
+      "sha256": "a50732c0e9cf0265fbe0e9caa9c098a7b1f8047053c9546fc48b88c9521249e2"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/formal_source/eassy_exp4_C2B_SA_L1600_R800_formal/experiment3_config.h",
+      "size": 4056,
+      "sha256": "f2f25a91d766176f0db375ec2d0ea9262c2ad22cfa1bed694bea45fe7e161b85"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/formal_source/eassy_exp4_C2B_SA_L1600_R800_formal/motor_task.c",
+      "size": 15834,
+      "sha256": "a50732c0e9cf0265fbe0e9caa9c098a7b1f8047053c9546fc48b88c9521249e2"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/formal_source/eassy_exp4_C2B_SA_L800_R1600_formal/experiment3_config.h",
+      "size": 4056,
+      "sha256": "a6212fce279810cc34643cb577f2027adfce8e4dda619541345122dcebb8f805"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/formal_source/eassy_exp4_C2B_SA_L800_R1600_formal/motor_task.c",
+      "size": 15834,
+      "sha256": "a50732c0e9cf0265fbe0e9caa9c098a7b1f8047053c9546fc48b88c9521249e2"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/processing/process_exp4_formal.py",
+      "size": 26935,
+      "sha256": "86206849c15e423144b88a7c56127fb6dce47b66b379cd1161fe497bfdd72616"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/README_实验4封档说明.md",
+      "size": 2768,
+      "sha256": "4bf988a98b64798f63e558ef5525f0f02984f8f60162010cbad0248e69c3eafe"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/图1_六种条件跟踪与同步性能.png",
+      "size": 82968,
+      "sha256": "d45513c01e2ff0f6ae72e57eca652b68ea848fdc2abc54cdf4db1391838fda9f"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/图2_饱和占比与控制量总变差.png",
+      "size": 85198,
+      "sha256": "29ece6458b57012ff67dc9d4367640c55d8a56134bd41172ebde5d83895dfba7"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/图3_代表运行误差与控制电流.png",
+      "size": 826512,
+      "sha256": "a6c1715263698c7188060803e9aa206a8018e5c1e03f1e4bd43b5d1e6d3da37e"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/图4_分配缺口与抗饱和状态.png",
+      "size": 81072,
+      "sha256": "aa0fc3bb7bf29d0343f27be9fe632309f20c1f9b292119f704186bb93703e4fd"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/图5_采集顺序中的电压与温度.png",
+      "size": 223242,
+      "sha256": "2207ca0982588915b00adb3a6277426bed29cfbe1406500a24067c52ba8313f9"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/实验4分组统计.csv",
+      "size": 8625,
+      "sha256": "e6850b2b98cd2ed491b8fc2b4a80c09ed69c4e55f1e6d2816364db7723459e53"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/实验4协议与质量结论.json",
+      "size": 426,
+      "sha256": "e9e176e494b44b60ee13e4a0f1085c20977733387fb59a97f32e1658d11e28fe"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/实验4实际采集顺序.csv",
+      "size": 17816,
+      "sha256": "cf6363d05ef671ed88bb5e01aee8179a87c6597d99732616e1d22337728f707f"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/实验4工作簿数据.json",
+      "size": 162772,
+      "sha256": "156790f947cf81924151890fee1b032463cc640d7aee732c959aa8044ab96fc9"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/实验4效应对比.csv",
+      "size": 5350,
+      "sha256": "039729c3ee1f33de4678ffe7988263284ef04b1a6b40f5a825616ac32fb5029e"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/实验4文件哈希_SHA256.csv",
+      "size": 12880,
+      "sha256": "085a55cabf252a354d028941a5a17459176d33ca789d80b9f2eb7f3c03393e25"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/实验4逐文件质量检查.csv",
+      "size": 7025,
+      "sha256": "5bb9db2e44f361a50d25af6c7c1814c5fad849829db740ce887139dd27d5fd02"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/实验4逐次指标.csv",
+      "size": 16131,
+      "sha256": "5c2275e55beab15c06bb4ba0078ceef9fd74cfa12da5ea5cadc02d50ddd662f9"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/封档完成标志.txt",
+      "size": 318,
+      "sha256": "3be4db27ce5a2b2f52a7019f260e09703e22f4e9f0caf2dd7559b48f0e13a19d"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/当前论文使用说明_20261018.md",
+      "size": 1900,
+      "sha256": "af1440b2c6d9fc84307d9d09df8006e1e73078a194da695f79245ae7a6bd2058"
+    },
+    {
+      "path": "materials/07_A线基础实验/signal_dictionary.csv",
+      "size": 3251,
+      "sha256": "6d377f4b1b06131b09d142578daf2eec0fb94b67f57bee54b1429205683f6c33"
+    },
+    {
       "path": "README.md",
-      "size": 2147,
-      "sha256": "8e7f75bed8b03e6806de10169c5c224bb05a9901a4758413cc38f7a5c36cd12a"
+      "size": 2620,
+      "sha256": "2a873f347273eeb242a645641c5330240e4bd53d756c7bd11a42684b4f8b4b6e"
     },
     {
       "path": "requirements.txt",

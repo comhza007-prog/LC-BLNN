@@ -1,0 +1,453 @@
+{
+  "experiment": "Experiment 2: 2 kg direct-hang load step",
+  "created_date": "2026-10-01",
+  "conclusion": "Five of five runs are valid; experiment 2 is complete and no rerun is required.",
+  "processing": {
+    "segment_selection": "Last continuous segment containing phases 1 through 8 and I23=2.0 kg.",
+    "clean_data_window": "Phase 1 start through up to 3 s after the first phase-8 sample; available recorded data are retained without interpolation.",
+    "statistics_window": "Experimental statistics use phases 1 through 7; the common trajectory comparison uses phases 4-6 for experiment 2 and phases 2-4 for experiment 1.",
+    "load_event_detection": "First phase-2 sample where either feedback-current channel differs from its phase-1 median by at least 200 raw counts.",
+    "actual_sample_rate_hz": 76.92307692307752
+  },
+  "runs": [
+    {
+      "run": "E2_loadstep_M2000g_run01",
+      "valid": true,
+      "clean_rows": 2385,
+      "duration_s": 30.992003000000004,
+      "sample_rate_hz": 76.92307692307752,
+      "sequence_gaps": 0,
+      "phase_complete": true,
+      "load_mass_kg": 2.0,
+      "phase2_start_s": 5.005,
+      "load_event_time_s": 5.707,
+      "load_event_latency_s": 0.702,
+      "step_position_error_peak_abs_mm": 0.0,
+      "step_left_displacement_from_pre_mm": 0.0,
+      "step_right_displacement_from_pre_mm": 0.0,
+      "step_sync_peak_abs_mm": 0.0,
+      "step_sync_rms_mm": 0.0,
+      "step_feedback_peak_left_abs_raw": 290.0,
+      "step_feedback_peak_right_abs_raw": 746.0,
+      "post_minus_pre_current_left_raw": 7.4363636363636365,
+      "post_minus_pre_current_right_raw": -8.603896103896103,
+      "trajectory_tracking_rmse_left_mm": 0.6162080113984956,
+      "trajectory_tracking_rmse_right_mm": 0.6350861302667086,
+      "trajectory_sync_rms_mm": 0.17322637398830573,
+      "trajectory_sync_peak_abs_mm": 0.609152,
+      "motion_tracking_rmse_left_mm": 0.711447719191549,
+      "motion_tracking_rmse_right_mm": 0.716475073050717,
+      "motion_sync_rms_mm": 0.12422203736964803,
+      "hold50_mean_mm": 49.984071428571426,
+      "hold50_sync_mean_mm": -0.0066216038961038936,
+      "final_left_mm": -0.005999999999999999,
+      "final_right_mm": 0.0,
+      "final_sync_mm": -0.0060550000000000005,
+      "saturation_rows": 0,
+      "fault_rows": 0,
+      "battery_min_V": 24.229994,
+      "temp_left_max_C": 23.0,
+      "temp_right_max_C": 23.0,
+      "raw_rows": 50000,
+      "source_row_start_1based": 46900,
+      "source_row_end_1based": 49284,
+      "continuous_segment_rows": 3330,
+      "current_threshold_raw": 200
+    },
+    {
+      "run": "E2_loadstep_M2000g_run02",
+      "valid": true,
+      "clean_rows": 2385,
+      "duration_s": 30.992003000000004,
+      "sample_rate_hz": 76.92307692307752,
+      "sequence_gaps": 0,
+      "phase_complete": true,
+      "load_mass_kg": 2.0,
+      "phase2_start_s": 5.005,
+      "load_event_time_s": 5.902000999999999,
+      "load_event_latency_s": 0.8970009999999995,
+      "step_position_error_peak_abs_mm": 0.001,
+      "step_left_displacement_from_pre_mm": 0.001,
+      "step_right_displacement_from_pre_mm": 0.0,
+      "step_sync_peak_abs_mm": 0.001211,
+      "step_sync_rms_mm": 0.0011991465336191858,
+      "step_feedback_peak_left_abs_raw": 238.0,
+      "step_feedback_peak_right_abs_raw": 756.0,
+      "post_minus_pre_current_left_raw": -8.727272727272727,
+      "post_minus_pre_current_right_raw": 39.63896103896104,
+      "trajectory_tracking_rmse_left_mm": 0.6220240394800324,
+      "trajectory_tracking_rmse_right_mm": 0.6266139291941749,
+      "trajectory_sync_rms_mm": 0.18200021723321708,
+      "trajectory_sync_peak_abs_mm": 0.432339,
+      "motion_tracking_rmse_left_mm": 0.7142032387449432,
+      "motion_tracking_rmse_right_mm": 0.714478911318322,
+      "motion_sync_rms_mm": 0.12907741007511397,
+      "hold50_mean_mm": 50.03198039215687,
+      "hold50_sync_mean_mm": -0.06116141176470587,
+      "final_left_mm": 0.06945000000000001,
+      "final_right_mm": 0.0010000000000000002,
+      "final_sync_mm": 0.06824195,
+      "saturation_rows": 0,
+      "fault_rows": 0,
+      "battery_min_V": 24.229994,
+      "temp_left_max_C": 23.0,
+      "temp_right_max_C": 23.0,
+      "raw_rows": 50000,
+      "source_row_start_1based": 47523,
+      "source_row_end_1based": 49907,
+      "continuous_segment_rows": 2724,
+      "current_threshold_raw": 200
+    },
+    {
+      "run": "E2_loadstep_M2000g_run03",
+      "valid": true,
+      "clean_rows": 2334,
+      "duration_s": 30.329001,
+      "sample_rate_hz": 76.92307692307752,
+      "sequence_gaps": 0,
+      "phase_complete": true,
+      "load_mass_kg": 2.0,
+      "phase2_start_s": 4.992,
+      "load_event_time_s": 6.721001,
+      "load_event_latency_s": 1.7290010000000002,
+      "step_position_error_peak_abs_mm": 0.001,
+      "step_left_displacement_from_pre_mm": 0.0,
+      "step_right_displacement_from_pre_mm": 0.0,
+      "step_sync_peak_abs_mm": 0.001211,
+      "step_sync_rms_mm": 0.001211,
+      "step_feedback_peak_left_abs_raw": 661.0,
+      "step_feedback_peak_right_abs_raw": 497.0,
+      "post_minus_pre_current_left_raw": -5.154423701298701,
+      "post_minus_pre_current_right_raw": 11.580796807359308,
+      "trajectory_tracking_rmse_left_mm": 0.6330991548228432,
+      "trajectory_tracking_rmse_right_mm": 0.6222260300890066,
+      "trajectory_sync_rms_mm": 0.24868986337001175,
+      "trajectory_sync_peak_abs_mm": 0.756897,
+      "motion_tracking_rmse_left_mm": 0.7125471023742587,
+      "motion_tracking_rmse_right_mm": 0.711042461305049,
+      "motion_sync_rms_mm": 0.1750261894508642,
+      "hold50_mean_mm": 50.03137012987014,
+      "hold50_sync_mean_mm": -0.08073053896103896,
+      "final_left_mm": -0.004000000000000001,
+      "final_right_mm": 0.0010000000000000002,
+      "final_sync_mm": -0.004844,
+      "saturation_rows": 0,
+      "fault_rows": 0,
+      "battery_min_V": 24.229994,
+      "temp_left_max_C": 23.0,
+      "temp_right_max_C": 23.0,
+      "raw_rows": 50000,
+      "source_row_start_1based": 47668,
+      "source_row_end_1based": 50001,
+      "continuous_segment_rows": 2580,
+      "current_threshold_raw": 200
+    },
+    {
+      "run": "E2_loadstep_M2000g_run04",
+      "valid": true,
+      "clean_rows": 2220,
+      "duration_s": 28.847002999999997,
+      "sample_rate_hz": 76.92307692307752,
+      "sequence_gaps": 0,
+      "phase_complete": true,
+      "load_mass_kg": 2.0,
+      "phase2_start_s": 4.992,
+      "load_event_time_s": 5.096001,
+      "load_event_latency_s": 0.10400100000000023,
+      "step_position_error_peak_abs_mm": 0.001,
+      "step_left_displacement_from_pre_mm": 0.001,
+      "step_right_displacement_from_pre_mm": 0.0,
+      "step_sync_peak_abs_mm": 0.002422,
+      "step_sync_rms_mm": 0.0012458839322855371,
+      "step_feedback_peak_left_abs_raw": 486.0,
+      "step_feedback_peak_right_abs_raw": 684.0,
+      "post_minus_pre_current_left_raw": 7.969088203463204,
+      "post_minus_pre_current_right_raw": 38.54170048701299,
+      "trajectory_tracking_rmse_left_mm": 0.6343313104223326,
+      "trajectory_tracking_rmse_right_mm": 0.6280114855767052,
+      "trajectory_sync_rms_mm": 0.2428540626426175,
+      "trajectory_sync_peak_abs_mm": 0.81503,
+      "motion_tracking_rmse_left_mm": 0.7138576329868132,
+      "motion_tracking_rmse_right_mm": 0.7166067319268987,
+      "motion_sync_rms_mm": 0.18291665515331626,
+      "hold50_mean_mm": 50.01754545454545,
+      "hold50_sync_mean_mm": -0.07343301948051949,
+      "final_left_mm": -0.0020000000000000005,
+      "final_right_mm": 0.00135,
+      "final_sync_mm": -0.004056849999999999,
+      "saturation_rows": 0,
+      "fault_rows": 0,
+      "battery_min_V": 24.213612,
+      "temp_left_max_C": 23.0,
+      "temp_right_max_C": 23.0,
+      "raw_rows": 50000,
+      "source_row_start_1based": 47782,
+      "source_row_end_1based": 50001,
+      "continuous_segment_rows": 2466,
+      "current_threshold_raw": 200
+    },
+    {
+      "run": "E2_loadstep_M2000g_run05",
+      "valid": true,
+      "clean_rows": 2243,
+      "duration_s": 29.146002999999997,
+      "sample_rate_hz": 76.92307692307752,
+      "sequence_gaps": 0,
+      "phase_complete": true,
+      "load_mass_kg": 2.0,
+      "phase2_start_s": 4.992,
+      "load_event_time_s": 5.252000999999999,
+      "load_event_latency_s": 0.26000099999999904,
+      "step_position_error_peak_abs_mm": 0.001,
+      "step_left_displacement_from_pre_mm": 0.001,
+      "step_right_displacement_from_pre_mm": 0.0,
+      "step_sync_peak_abs_mm": 0.001211,
+      "step_sync_rms_mm": 0.001211,
+      "step_feedback_peak_left_abs_raw": 602.0,
+      "step_feedback_peak_right_abs_raw": 348.0,
+      "post_minus_pre_current_left_raw": 9.459246482683982,
+      "post_minus_pre_current_right_raw": 23.29951298701299,
+      "trajectory_tracking_rmse_left_mm": 0.6342264874619903,
+      "trajectory_tracking_rmse_right_mm": 0.6259145101239784,
+      "trajectory_sync_rms_mm": 0.24252124253050797,
+      "trajectory_sync_peak_abs_mm": 0.818659,
+      "motion_tracking_rmse_left_mm": 0.7137871955426264,
+      "motion_tracking_rmse_right_mm": 0.7145261281804148,
+      "motion_sync_rms_mm": 0.1816308025170124,
+      "hold50_mean_mm": 50.019266233766245,
+      "hold50_sync_mean_mm": -0.0856296753246753,
+      "final_left_mm": -0.00425,
+      "final_right_mm": 0.0,
+      "final_sync_mm": -0.00393575,
+      "saturation_rows": 0,
+      "fault_rows": 0,
+      "battery_min_V": 24.20521,
+      "temp_left_max_C": 23.0,
+      "temp_right_max_C": 23.0,
+      "raw_rows": 50000,
+      "source_row_start_1based": 47759,
+      "source_row_end_1based": 50001,
+      "continuous_segment_rows": 2489,
+      "current_threshold_raw": 200
+    }
+  ],
+  "experiment2_group": {
+    "load_event_time_s": {
+      "mean": 5.7356008,
+      "std": 0.640795844477943,
+      "min": 5.096001,
+      "max": 6.721001
+    },
+    "load_event_latency_s": {
+      "mean": 0.7384007999999997,
+      "std": 0.6401361716074169,
+      "min": 0.10400100000000023,
+      "max": 1.7290010000000002
+    },
+    "step_position_error_peak_abs_mm": {
+      "mean": 0.0008,
+      "std": 0.000447213595499958,
+      "min": 0.0,
+      "max": 0.001
+    },
+    "step_left_displacement_from_pre_mm": {
+      "mean": 0.0006000000000000001,
+      "std": 0.0005477225575051661,
+      "min": 0.0,
+      "max": 0.001
+    },
+    "step_right_displacement_from_pre_mm": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "step_sync_peak_abs_mm": {
+      "mean": 0.001211,
+      "std": 0.0008563063120169091,
+      "min": 0.0,
+      "max": 0.002422
+    },
+    "step_sync_rms_mm": {
+      "mean": 0.0009734060931809446,
+      "std": 0.0005444318301241288,
+      "min": 0.0,
+      "max": 0.0012458839322855371
+    },
+    "step_feedback_peak_left_abs_raw": {
+      "mean": 455.4,
+      "std": 186.62743635382233,
+      "min": 238.0,
+      "max": 661.0
+    },
+    "step_feedback_peak_right_abs_raw": {
+      "mean": 606.2,
+      "std": 177.9247031752477,
+      "min": 348.0,
+      "max": 756.0
+    },
+    "post_minus_pre_current_left_raw": {
+      "mean": 2.196600378787879,
+      "std": 8.468933253002263,
+      "min": -8.727272727272727,
+      "max": 9.459246482683982
+    },
+    "post_minus_pre_current_right_raw": {
+      "mean": 20.891415043290046,
+      "std": 20.15851547371377,
+      "min": -8.603896103896103,
+      "max": 39.63896103896104
+    },
+    "trajectory_tracking_rmse_left_mm": {
+      "mean": 0.6279778007171388,
+      "std": 0.008360870961792928,
+      "min": 0.6162080113984956,
+      "max": 0.6343313104223326
+    },
+    "trajectory_tracking_rmse_right_mm": {
+      "mean": 0.6275704170501147,
+      "std": 0.004714335991311017,
+      "min": 0.6222260300890066,
+      "max": 0.6350861302667086
+    },
+    "trajectory_sync_rms_mm": {
+      "mean": 0.21785835195293196,
+      "std": 0.03695079533446328,
+      "min": 0.17322637398830573,
+      "max": 0.24868986337001175
+    },
+    "trajectory_sync_peak_abs_mm": {
+      "mean": 0.6864154000000001,
+      "std": 0.16547068549232521,
+      "min": 0.432339,
+      "max": 0.818659
+    },
+    "motion_tracking_rmse_left_mm": {
+      "mean": 0.7131685777680381,
+      "std": 0.0011484330942677001,
+      "min": 0.711447719191549,
+      "max": 0.7142032387449432
+    },
+    "motion_tracking_rmse_right_mm": {
+      "mean": 0.7146258611562802,
+      "std": 0.002248095252406582,
+      "min": 0.711042461305049,
+      "max": 0.7166067319268987
+    },
+    "motion_sync_rms_mm": {
+      "mean": 0.15857461891319097,
+      "std": 0.02934689801234379,
+      "min": 0.12422203736964803,
+      "max": 0.18291665515331626
+    },
+    "hold50_mean_mm": {
+      "mean": 50.01684672778203,
+      "std": 0.019496919450681036,
+      "min": 49.984071428571426,
+      "max": 50.03198039215687
+    },
+    "final_left_mm": {
+      "mean": 0.01064,
+      "std": 0.032906370963690305,
+      "min": -0.005999999999999999,
+      "max": 0.06945000000000001
+    },
+    "final_right_mm": {
+      "mean": 0.0006700000000000001,
+      "std": 0.0006280923498976883,
+      "min": 0.0,
+      "max": 0.00135
+    },
+    "battery_min_V": {
+      "mean": 24.2217608,
+      "std": 0.011658566258335692,
+      "min": 24.20521,
+      "max": 24.229994
+    }
+  },
+  "experiment1_matched_runs": [
+    {
+      "run": "E1_noload_run01_clean",
+      "trajectory_tracking_rmse_left_mm": 0.6305779442948897,
+      "trajectory_tracking_rmse_right_mm": 0.6084520651492733,
+      "trajectory_sync_rms_mm": 0.1826352180629269,
+      "motion_tracking_rmse_left_mm": 0.7081821738380538,
+      "motion_tracking_rmse_right_mm": 0.6996930495841469,
+      "motion_sync_rms_mm": 0.14245267562261205
+    },
+    {
+      "run": "E1_noload_run02_clean",
+      "trajectory_tracking_rmse_left_mm": 0.6313086975044107,
+      "trajectory_tracking_rmse_right_mm": 0.6076612730495728,
+      "trajectory_sync_rms_mm": 0.1875698746831008,
+      "motion_tracking_rmse_left_mm": 0.7103366621087439,
+      "motion_tracking_rmse_right_mm": 0.6989090584742434,
+      "motion_sync_rms_mm": 0.14204842679436022
+    },
+    {
+      "run": "E1_noload_run03_clean",
+      "trajectory_tracking_rmse_left_mm": 0.6302165650244119,
+      "trajectory_tracking_rmse_right_mm": 0.6132694424891143,
+      "trajectory_sync_rms_mm": 0.18691069216602388,
+      "motion_tracking_rmse_left_mm": 0.7092729433899958,
+      "motion_tracking_rmse_right_mm": 0.7068793975523566,
+      "motion_sync_rms_mm": 0.11951292635493416
+    },
+    {
+      "run": "E1_noload_run04_clean",
+      "trajectory_tracking_rmse_left_mm": 0.6317801832916257,
+      "trajectory_tracking_rmse_right_mm": 0.6088680153880656,
+      "trajectory_sync_rms_mm": 0.17777976600426637,
+      "motion_tracking_rmse_left_mm": 0.7107181269429486,
+      "motion_tracking_rmse_right_mm": 0.702112946769743,
+      "motion_sync_rms_mm": 0.11459041315983198
+    },
+    {
+      "run": "E1_noload_run05_clean",
+      "trajectory_tracking_rmse_left_mm": 0.6312495210233491,
+      "trajectory_tracking_rmse_right_mm": 0.607290076498033,
+      "trajectory_sync_rms_mm": 0.18398812316871904,
+      "motion_tracking_rmse_left_mm": 0.7101663849917809,
+      "motion_tracking_rmse_right_mm": 0.6986453992830653,
+      "motion_sync_rms_mm": 0.13850612388192998
+    }
+  ],
+  "experiment1_group": {
+    "trajectory_tracking_rmse_left_mm": {
+      "mean": 0.6310265822277374,
+      "std": 0.000623419835241037,
+      "min": 0.6302165650244119,
+      "max": 0.6317801832916257
+    },
+    "trajectory_tracking_rmse_right_mm": {
+      "mean": 0.6091081745148118,
+      "std": 0.0024084907778725287,
+      "min": 0.607290076498033,
+      "max": 0.6132694424891143
+    },
+    "trajectory_sync_rms_mm": {
+      "mean": 0.1837767348170074,
+      "std": 0.003921765520313389,
+      "min": 0.17777976600426637,
+      "max": 0.1875698746831008
+    },
+    "motion_tracking_rmse_left_mm": {
+      "mean": 0.7097352582543046,
+      "std": 0.0010172750312452345,
+      "min": 0.7081821738380538,
+      "max": 0.7107181269429486
+    },
+    "motion_tracking_rmse_right_mm": {
+      "mean": 0.7012479703327111,
+      "std": 0.0034323031644667968,
+      "min": 0.6986453992830653,
+      "max": 0.7068793975523566
+    },
+    "motion_sync_rms_mm": {
+      "mean": 0.13142211316273367,
+      "std": 0.013322067340125981,
+      "min": 0.11459041315983198,
+      "max": 0.14245267562261205
+    }
+  }
+}

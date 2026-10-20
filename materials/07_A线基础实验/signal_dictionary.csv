@@ -1,0 +1,53 @@
+field_name,unit,rate_hz,source,required,description
+timestamp_mcu_us,us,1000,MCU,yes,Monotonic controller timestamp
+timestamp_host_us,us,1000,Host,yes,Host receive timestamp
+sequence_id,count,1000,MCU,yes,Monotonic packet sequence number
+trial_id,text,1000,Manifest,yes,Trial identifier
+controller_id,text,1000,Controller,yes,Controller identifier
+trajectory_phase,text,1000,Trajectory,yes,Acceleration cruise deceleration or hold
+yd_m,m,1000,Trajectory,yes,Position reference
+yd_dot_mps,m/s,1000,Trajectory,yes,Velocity reference
+yd_ddot_mps2,m/s^2,1000,Trajectory,yes,Acceleration reference
+encoder_left_raw,count,1000,Encoder,yes,Raw modulo encoder count
+encoder_right_raw,count,1000,Encoder,yes,Raw modulo encoder count
+encoder_left_unwrapped,count,1000,MCU,yes,Unwrapped encoder count
+encoder_right_unwrapped,count,1000,MCU,yes,Unwrapped encoder count
+y_left_m,m,1000,Derived,yes,Left physical position
+y_right_m,m,1000,Derived,yes,Right physical position
+y_g_m,m,1000,Derived,yes,Center position
+alpha_rad,rad,1000,Derived,yes,Rotation angle
+velocity_left_mps,m/s,1000,Estimator,yes,Left velocity estimate
+velocity_right_mps,m/s,1000,Estimator,yes,Right velocity estimate
+i_request_left_cmd,count,1000,Controller,yes,Left unconstrained request
+i_request_right_cmd,count,1000,Controller,yes,Right unconstrained request
+i_alloc_left_cmd,count,1000,Allocator,yes,Left allocated request
+i_alloc_right_cmd,count,1000,Allocator,yes,Right allocated request
+i_fw_left_cmd,count,1000,Firmware,yes,Left final transmitted command
+i_fw_right_cmd,count,1000,Firmware,yes,Right final transmitted command
+i_meas_left_a,A,1000,Driver,yes,Calibrated left measured current
+i_meas_right_a,A,1000,Driver,yes,Calibrated right measured current
+saturation_internal,logical,1000,Controller,yes,Internal saturation flag
+saturation_allocator,logical,1000,Allocator,yes,Allocator active flag
+saturation_hardware,logical,1000,Driver,yes,Hardware or driver saturation flag
+tracking_error_m,m,1000,Derived,yes,Center tracking error
+sync_error_m,m,1000,Derived,yes,Right minus left position
+sigma_y,derived,1000,Controller,no,Translational error surface
+sigma_alpha,derived,1000,Controller,no,Rotational error surface
+z_aw_y,derived,1000,Controller,no,Translational anti-windup state
+z_aw_alpha,derived,1000,Controller,no,Rotational anti-windup state
+theta_mass_kg,kg,1000,RLS,no,Applied mass estimate
+theta_damping_ns_per_m,N*s/m,1000,RLS,no,Applied viscous damping estimate
+theta_friction_n,N,1000,RLS,no,Applied Coulomb friction estimate
+pe_lambda_min,derived,1000,RLS,no,Minimum Gram eigenvalue
+rls_update_enabled,logical,1000,RLS,no,PE update gate
+projection_active,logical,1000,RLS,no,Projection active flag
+rate_limit_active,logical,1000,RLS,no,Parameter rate limit flag
+battery_voltage_v,V,1000,Power,yes,Measured supply voltage
+temperature_left_c,degC,1000,Driver,yes,Left actuator or driver temperature
+temperature_right_c,degC,1000,Driver,yes,Right actuator or driver temperature
+fault_code,count,1000,Driver,yes,Latched fault code
+limit_switch_state,count,1000,IO,yes,Travel limit state
+estop_state,logical,1000,IO,yes,Emergency stop state
+cycle_time_us,us,1000,MCU,yes,Measured closed-loop cycle time
+packet_valid,logical,1000,Logger,yes,Packet integrity result
+

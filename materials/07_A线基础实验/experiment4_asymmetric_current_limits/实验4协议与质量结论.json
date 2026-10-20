@@ -1,0 +1,12 @@
+{
+  "expected_file_count": 30,
+  "actual_file_count": 30,
+  "missing_files": [],
+  "unexpected_files": [],
+  "all_files_valid": true,
+  "planned_random_order_followed": false,
+  "actual_collection_pattern": "condition-blocked (five repeats per condition)",
+  "battery_mean_range_V": 0.061371381701043504,
+  "battery_spearman_vs_order": -0.9296996662958843,
+  "archive_decision": "eligible_with_protocol_deviation"
+}
