@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "purpose": "LC-BLNN research materials and multi-stroke experiment package; current file hashes, not collection-time certificate",
+  "purpose": "LC-BLNN research materials and 10mm plus multi-stroke experiment packages; current file hashes, not collection-time certificate",
   "files": [
     {
       "path": ".gitattributes",
@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "size": 2919,
-      "sha256": "7a182be7b1966982ae9d46df91a6246a0de6af1a2ab70861e75dc6c24442dfdc"
+      "size": 3002,
+      "sha256": "87a4f908f002161109e0ae7d68499cc6255a47b65c2c353e77096ab3d4f2f546"
     },
     {
       "path": "data/A_foundation_source_manifest.json",
@@ -54,8 +54,8 @@
     },
     {
       "path": "materials/00_论文写作事实清单与终版入口.md",
-      "size": 18424,
-      "sha256": "9ff18f0aec8cb1f236ea05015365bd3d6024ef366623a6940fc3626a2d8c6ac5"
+      "size": 18438,
+      "sha256": "3f9c6778d78b40ff980002ea2e1c52904d570534a95f9918ce1741737219e789"
     },
     {
       "path": "materials/01_理论分析与连续模型/continuous_closed_loop_model.py",
@@ -931,6 +931,61 @@
       "path": "materials/08_多行程实验_20_300mm/README.md",
       "size": 1116,
       "sha256": "d59b044258a1cccd83b5a4e0605ba624a54328ef6da40852a9b512b4b4fabebf"
+    },
+    {
+      "path": "materials/09_10mm短行程_10blocks/10MM_AUDIT.csv",
+      "size": 302,
+      "sha256": "9fdfeef6d20494b798364f9eee4b721fdd8afe284109e9c63db567d5a9d434d3"
+    },
+    {
+      "path": "materials/09_10mm短行程_10blocks/EXP5_10MM_10BLOCKS_FINAL_MASTER.csv",
+      "size": 9491,
+      "sha256": "9c1975092ac65b3ff482edd4c661f5e79635524fa816bdcb348ad31d2ac926a5"
+    },
+    {
+      "path": "materials/09_10mm短行程_10blocks/EXP5_10MM_10BLOCKS_FINAL_SUMMARY.csv",
+      "size": 503,
+      "sha256": "88a9a511d5ffdcb5505aad1365415311da132b1e8ab4f16c144bfe8d4975a058"
+    },
+    {
+      "path": "materials/09_10mm短行程_10blocks/README.md",
+      "size": 630,
+      "sha256": "a1a7ffc4a61fddec3c1202ee923b1e41c3ace8baac4aa21d3d51cc2b75acbc0f"
+    },
+    {
+      "path": "materials/09_10mm短行程_10blocks/compiled_firmwares/M1_BASE/M1_BASE.hex",
+      "size": 91287,
+      "sha256": "12844a35bf68bb07079988cc87714d1e0698ed8a44a1bbba2509044734bf58fc"
+    },
+    {
+      "path": "materials/09_10mm短行程_10blocks/compiled_firmwares/M1_BASE/experiment5_config.h",
+      "size": 9035,
+      "sha256": "d136b34d93ea81c48e61958873742ffc0beed90562d9e383f074387e1d4fb1a4"
+    },
+    {
+      "path": "materials/09_10mm短行程_10blocks/compiled_firmwares/M2_BLNN/M2_BLNN.hex",
+      "size": 91311,
+      "sha256": "6d53000655c744560410a3958bf3c3f98c0ae0188662e91d8c94df2140852a29"
+    },
+    {
+      "path": "materials/09_10mm短行程_10blocks/compiled_firmwares/M2_BLNN/experiment5_config.h",
+      "size": 9035,
+      "sha256": "63205d63625261efc17c6a42b0c5af13dce524944c9e0da26d534a76acc74ec3"
+    },
+    {
+      "path": "materials/09_10mm短行程_10blocks/compiled_firmwares/M3_LCBLNN/M3_LCBLNN.hex",
+      "size": 91311,
+      "sha256": "d12145a3b8313d40db6072670f646688a1f30f59f26083ede7bdb83c72e542fb"
+    },
+    {
+      "path": "materials/09_10mm短行程_10blocks/compiled_firmwares/M3_LCBLNN/experiment5_config.h",
+      "size": 9035,
+      "sha256": "4c801abe36253a5594edae474ff4caa7b4001ad00aec24c49d5c493c146daf09"
+    },
+    {
+      "path": "materials/09_10mm短行程_10blocks/compiled_firmwares/firmware_manifest.json",
+      "size": 1794,
+      "sha256": "707fd29d1ba3cdf9252df026147f91a6a8e3caba371d88021e1789436337a33d"
     },
     {
       "path": "requirements.txt",
