@@ -1,0 +1,4 @@
+﻿method_id,description,n_trials,sync_rms_mean_mm,sync_rms_std_mm,sync_peak_mean_mm,track_rmse_mean_mm,track_rmse_std_mm,wy_peak_mean,rho_y_mean,residual_t20_abs_mean_mm
+M1_BASE,"基准滑模控制 (BLNN=0, LC=0)",10,0.0821,0.0325,0.3628,0.8421,0.5193,0.0,1.0,0.1168
+M2_BLNN,"普通宽度学习网络 BLNN (BLNN=1, LC=0)",10,0.0816,0.0309,0.3419,0.7895,0.499,2.5335,1.0,0.1054
+M3_LCBLNN,"学习协调宽度学习网络 LC-BLNN (BLNN=1, LC=1)",10,0.073,0.019,0.3472,0.7222,0.3464,1.0317,0.8523,0.1267

@@ -1,0 +1,29 @@
+{
+  "M1_BASE": {
+    "method_id": "M1_BASE",
+    "description": "基准滑模控制 (BLNN=0, LC=0)",
+    "enable_blnn": 0,
+    "enable_lc": 0,
+    "stroke_m": 0.1,
+    "axf_sha256": "12f89b660de1604a66b5baa65b83f5b7cce9c31f8e6434026b67e8af256f2210",
+    "hex_sha256": "a28ea1a660b493d50b40e149deca9131f2f612fce3ab485ae80a1b368d2e30a3"
+  },
+  "M2_BLNN": {
+    "method_id": "M2_BLNN",
+    "description": "普通宽度学习网络 (BLNN=1, LC=0)",
+    "enable_blnn": 1,
+    "enable_lc": 0,
+    "stroke_m": 0.1,
+    "axf_sha256": "87e9c357b1e0a84729a5a87dfddb1dc81c337cd2901275628c05d8da5829de68",
+    "hex_sha256": "3b8ba17755c0df41663873d9dc150f462631502b0e7dd0cc9d76ab9ee067466e"
+  },
+  "M3_LCBLNN": {
+    "method_id": "M3_LCBLNN",
+    "description": "学习协调宽度学习网络 (BLNN=1, LC=1)",
+    "enable_blnn": 1,
+    "enable_lc": 1,
+    "stroke_m": 0.1,
+    "axf_sha256": "d348d59fb16bbb79217460478239d1b17fed78d5a884de322bc7bb4e79837aa8",
+    "hex_sha256": "5d103cf1838bd77b5f6b3ed370567253053a55ff3273fc607e6690b2f16711b7"
+  }
+}

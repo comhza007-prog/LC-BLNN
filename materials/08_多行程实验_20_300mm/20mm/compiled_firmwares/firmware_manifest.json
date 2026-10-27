@@ -1,0 +1,35 @@
+{
+  "M1_BASE": {
+    "method_id": "M1_BASE",
+    "description": "基准滑模控制 (BLNN=0, LC=0)",
+    "enable_blnn": 0,
+    "enable_lc": 0,
+    "stroke_m": 0.02,
+    "axf_path": "D:\\lunwen2\\起重机\\output\\experiment5_20mm_5blocks\\compiled_firmwares\\M1_BASE\\eassy.axf",
+    "hex_path": "D:\\lunwen2\\起重机\\output\\experiment5_20mm_5blocks\\compiled_firmwares\\M1_BASE\\eassy.hex",
+    "axf_sha256": "b92ef905aad60e3bda7e48d760ba089cb528f47085a2a3d4207175c14fefe58d",
+    "hex_sha256": "ba829e8226314d7300238b3ce4212edafa9d6fa1f92d5052ebb969be20f23b03"
+  },
+  "M2_BLNN": {
+    "method_id": "M2_BLNN",
+    "description": "普通宽度学习网络 BLNN (BLNN=1, LC=0)",
+    "enable_blnn": 1,
+    "enable_lc": 0,
+    "stroke_m": 0.02,
+    "axf_path": "D:\\lunwen2\\起重机\\output\\experiment5_20mm_5blocks\\compiled_firmwares\\M2_BLNN\\eassy.axf",
+    "hex_path": "D:\\lunwen2\\起重机\\output\\experiment5_20mm_5blocks\\compiled_firmwares\\M2_BLNN\\eassy.hex",
+    "axf_sha256": "c56786acfd518080049c0b2d1512c1623046e2586522bdef96223fdb0e71864e",
+    "hex_sha256": "3289bcdf2467f7543e241940b41d0e2d2b3f56a097564d6a94ba4812d4fef5d5"
+  },
+  "M3_LCBLNN": {
+    "method_id": "M3_LCBLNN",
+    "description": "学习协调宽度学习网络 LC-BLNN (BLNN=1, LC=1)",
+    "enable_blnn": 1,
+    "enable_lc": 1,
+    "stroke_m": 0.02,
+    "axf_path": "D:\\lunwen2\\起重机\\output\\experiment5_20mm_5blocks\\compiled_firmwares\\M3_LCBLNN\\eassy.axf",
+    "hex_path": "D:\\lunwen2\\起重机\\output\\experiment5_20mm_5blocks\\compiled_firmwares\\M3_LCBLNN\\eassy.hex",
+    "axf_sha256": "b9ab0b248d03d0b14f767b1f8fcbd62a286a5b40d3effffba9548846178f6483",
+    "hex_sha256": "21f5f7c29e3aced4e586de3c0d657238926fc506b4a3228af626738bb34a69b2"
+  }
+}
