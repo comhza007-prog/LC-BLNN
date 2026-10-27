@@ -16,41 +16,15 @@
 
 ---
 
-## 二、105 次物理实验原始采集数据索引 (Raw Experimental Trials)
+## 二、多行程物理实验数据索引 (Multi-Stroke Trials)
 
-- **采集目录绝对路径**：`d:\lunwen2\起重机\output\experiment5_sync_coordinated_blnn\05_数据采集与归档\`
-- **控制时序与遥测机制**：
-  - **控制时序**：正式固件核心控制算法在 `motor_task` 中通过任务延时调度执行，**控制任务按 1 ms 周期配置**，运动全程内部控制器调用累计约 20,000 步（固件摘要字段 `ctrl_call_count = 20000`）；
-  - **遥测机制**：上位机通过 DMA 高速遥测接收记录，**遥测标称 500 Hz，存在丢帧导致的较大时间间隔**；
-  - **数据规模**：每次时域机动记录时长约 22 秒，产生约 11,000 行遥测记录（通常为 10,997 ~ 11,000 点，字段 `data_generated = 11000`）。
-- **实验设计与配对规模**：
-  - 共包含 **35 个独立配对块 (Block 01 ~ Block 35)**；
-  - 每个 Block 包含 3 种控制模式完全独立的时域运行：
-    * `M1_BASE`: 基准滑模控制模式 (35 次)
-    * `M2_BLNN`: 普通宽度学习网络模式 (35 次)
-    * `M3_LCBLNN`: 模态学习协调宽度学习网络模式 (35 次)
-  - 总计 **105 次完整时域运行**，每运行均包含原始二进制采集文件 (`.bin`, 约 1 MB) 与工程转换 CSV 数据 (`.csv`, 约 4 MB)，共计 **210 个高频采集文件**加 105 个单次指标摘要表 (`EXP5_SUMMARY_*.csv`)。
+最终公开统计包位于 [`../08_多行程实验_20_300mm/README.md`](../08_多行程实验_20_300mm/README.md)，覆盖 20、30、40、50、100、200 和 300 mm 七个行程。每个行程包含 10 个配对块，每个配对块包含 M1_BASE、M2_BLNN、M3_LCBLNN 三次独立运行，共 30 次运行。
 
-### 2.1 代表性数据文件索引示例（前 5 个 Block 与第 35 个 Block）
+公开包包含每个行程的 `FINAL_MASTER.csv`、`FINAL_SUMMARY.csv`、固件配置、HEX 和完整度审计。原始 BIN、逐帧遥测 CSV 和 LOG 保存在本地目录：
 
-| Block 编号 | 控制模式 | 原始二进制文件 (.bin) | 完整时域 CSV 数据 (.csv, 遥测标称 500 Hz) | 单次统计摘要 CSV |
-|---|---|---|---|---|
-| **Block 01** | M1_BASE | `EXP5_5B_B01_M1_BASE_20261017_151739.bin` | `EXP5_5B_B01_M1_BASE_20261017_151739.csv` | `EXP5_SUMMARY_5B_B01_M1_BASE_*.csv` |
-| | M2_BLNN | `EXP5_5B_B01_M2_BLNN_20261017_151906.bin` | `EXP5_5B_B01_M2_BLNN_20261017_151906.csv` | `EXP5_SUMMARY_5B_B01_M2_BLNN_*.csv` |
-| | M3_LCBLNN | `EXP5_5B_B01_M3_LCBLNN_20261017_151950.bin` | `EXP5_5B_B01_M3_LCBLNN_20261017_151950.csv` | `EXP5_SUMMARY_5B_B01_M3_LCBLNN_*.csv` |
-| **Block 02** | M1_BASE | `EXP5_5B_B02_M1_BASE_20261017_152035.bin` | `EXP5_5B_B02_M1_BASE_20261017_152035.csv` | `EXP5_SUMMARY_5B_B02_M1_BASE_*.csv` |
-| | M2_BLNN | `EXP5_5B_B02_M2_BLNN_20261017_152120.bin` | `EXP5_5B_B02_M2_BLNN_20261017_152120.csv` | `EXP5_SUMMARY_5B_B02_M2_BLNN_*.csv` |
-| | M3_LCBLNN | `EXP5_5B_B02_M3_LCBLNN_20261017_152247.bin` | `EXP5_5B_B02_M3_LCBLNN_20261017_152247.csv` | `EXP5_SUMMARY_5B_B02_M3_LCBLNN_*.csv` |
-| **Block 03** | M1_BASE | `EXP5_5B_B03_M1_BASE_20261017_152334.bin` | `EXP5_5B_B03_M1_BASE_20261017_152334.csv` | `EXP5_SUMMARY_5B_B03_M1_BASE_*.csv` |
-| | M2_BLNN | `EXP5_5B_B03_M2_BLNN_20261017_152421.bin` | `EXP5_5B_B03_M2_BLNN_20261017_152421.csv` | `EXP5_SUMMARY_5B_B03_M2_BLNN_*.csv` |
-| | M3_LCBLNN | `EXP5_5B_B03_M3_LCBLNN_20261017_152547.bin` | `EXP5_5B_B03_M3_LCBLNN_20261017_152547.csv` | `EXP5_SUMMARY_5B_B03_M3_LCBLNN_*.csv` |
-| ... | ... | ... (严格连续递增至 Block 35) | ... (全量 105 组配对完整保留) | ... |
-| **Block 35** | M1_BASE | `EXP5_5B_B35_M1_BASE_20261017_175706.bin` | `EXP5_5B_B35_M1_BASE_20261017_175706.csv` | `EXP5_SUMMARY_5B_B35_M1_BASE_*.csv` |
-| | M2_BLNN | `EXP5_5B_B35_M2_BLNN_20261017_175833.bin` | `EXP5_5B_B35_M2_BLNN_20261017_175833.csv` | `EXP5_SUMMARY_5B_B35_M2_BLNN_*.csv` |
-| | M3_LCBLNN | `EXP5_5B_B35_M3_LCBLNN_20261017_175918.bin` | `EXP5_5B_B35_M3_LCBLNN_20261017_175918.csv` | `EXP5_SUMMARY_5B_B35_M3_LCBLNN_*.csv` |
+`d:\lunwen2\起重机\output\experiment5_{stroke}mm_10blocks\data_{stroke}mm_10blocks\`
 
----
-
+本仓库不上传原始高频采集文件。统计表不能替代原始文件，论文中应按本地归档规则说明数据保存和质量审计方法。
 ## 三、实物固定调制补测数据索引 (Real Fixed-Modulation Hardware Trials)
 
 除 105 次主实验外，在物理实验平台上实际执行了真实的固定调制对照补测实验。相关数据与配对统计已建立直接溯源链接：
@@ -94,3 +68,4 @@
 - **对应图表文件**：[`D:\lunwen2\all\all\02_仿真与控制配置\EXP5_OFFLINE_FIXED_MODULATION_COMPARISON.png`](../02_仿真与控制配置/EXP5_OFFLINE_FIXED_MODULATION_COMPARISON.png)
 - **生成脚本路径**：[`D:\lunwen2\all\all\02_仿真与控制配置\run_offline_fixed_modulation_benchmark.py`](../02_仿真与控制配置/run_offline_fixed_modulation_benchmark.py)
 - **定位定性**：系纯 Python **离线数值仿真消融算例**，用于算法设计初期探索固定参数折减（如 $\rho=0.5$）与动态调制的对比。明确区分于物理实验台采集数据，不作为论文实物效能论据，仅作为算法演进的仿真参考。
+

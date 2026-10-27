@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-20",
-  "purpose": "A foundation + B LC-BLNN mainline writing materials; current file hashes, not collection-time certificate",
+  "date": "2026-10-28",
+  "purpose": "LC-BLNN research materials and multi-stroke experiment package; current file hashes, not collection-time certificate",
   "files": [
     {
       "path": ".gitattributes",
@@ -13,14 +13,14 @@
       "sha256": "d10690d28609f1271fff85ec911bbf2b2d11d0477ed3d079170f3044105b1218"
     },
     {
+      "path": "README.md",
+      "size": 2919,
+      "sha256": "7a182be7b1966982ae9d46df91a6246a0de6af1a2ab70861e75dc6c24442dfdc"
+    },
+    {
       "path": "data/A_foundation_source_manifest.json",
       "size": 30894,
       "sha256": "75396d1f23c26e077f1eb81e5906e903acb9a9d289c919c3ba01d0d00ee7e51b"
-    },
-    {
-      "path": "data/raw_105_sha256.json",
-      "size": 48932,
-      "sha256": "fcb08210533af71569e0ea12bbc2d4b304330258d462148c7f7df6306577df8b"
     },
     {
       "path": "docs/01_研究方向与创新点.md",
@@ -30,12 +30,12 @@
     {
       "path": "docs/02_论文闭环逻辑与章节安排.md",
       "size": 4036,
-      "sha256": "cb45e9d51e9a4a497cf1995906d94c4d66e575aa69108f5d59077ee6413e37d8"
+      "sha256": "c0fcaa49176ba53f74c11558a4da841620397038e0a3c94409196b1ef8ba169e"
     },
     {
       "path": "docs/03_材料与复算说明.md",
-      "size": 3405,
-      "sha256": "fed2c7344a196e136b9fce448dd094a489dcd67b6f4183d0b331bc75cd489e7f"
+      "size": 3352,
+      "sha256": "e550b39fc716b9e5c0a1f61261affe75817fcfe8353d49bb3d94bee309d63dad"
     },
     {
       "path": "docs/04_A基础与B主线对应.md",
@@ -45,7 +45,7 @@
     {
       "path": "materials/00_写作入口与来源清单/00_论文写作事实清单与终版入口.md",
       "size": 18430,
-      "sha256": "ab78a149f71a8209ffd278e952f36634d71b758ede0a35f845314bff4d438e2b"
+      "sha256": "e01067bc18aecda48642d71e8ffd1ee79cb5d055fe7d9dcd6aa0ee429570fc1d"
     },
     {
       "path": "materials/00_写作入口与来源清单/file_manifest_and_hashes.json",
@@ -55,7 +55,7 @@
     {
       "path": "materials/00_论文写作事实清单与终版入口.md",
       "size": 18424,
-      "sha256": "ce406afdb7181fa3d633c44126c107e8fddb38af7cb7ad42d19be8d5fc725cfa"
+      "sha256": "9ff18f0aec8cb1f236ea05015365bd3d6024ef366623a6940fc3626a2d8c6ac5"
     },
     {
       "path": "materials/01_理论分析与连续模型/continuous_closed_loop_model.py",
@@ -93,16 +93,6 @@
       "sha256": "3cd44fa10e9975a247d116be2a11e365594209d4934bbe7d79cab3da6fa5be74"
     },
     {
-      "path": "materials/02_仿真与控制配置/config_e5_final.py",
-      "size": 4640,
-      "sha256": "e80d1bf628d9c930b2aaf0183eccd508312a777a29efc6a6fa0637373357b2c3"
-    },
-    {
-      "path": "materials/02_仿真与控制配置/controller_e5_final_lc.py",
-      "size": 11469,
-      "sha256": "cda4e3b6f3f10297df0ece86b3ea3b953e2cf6b2e847583c1aff23464ee78bd1"
-    },
-    {
       "path": "materials/02_仿真与控制配置/EXP5_OFFLINE_FIXED_MODULATION_BENCHMARK.csv",
       "size": 687,
       "sha256": "0c62dbea24e1899fa775f9721bc44377cb21a5f5562049b6f222c7beecfa0709"
@@ -115,7 +105,7 @@
     {
       "path": "materials/02_仿真与控制配置/EXP5_SIMULATION_EXPLANATION.md",
       "size": 6872,
-      "sha256": "42f3d33d8933ff4a319a38ff8245dfa9dd4fcb7a1b4419d1d01514dab012c866"
+      "sha256": "b3f64b67fad45989120572fd1534ef84365c759aeb22c2bae56b2686e8e3ddb1"
     },
     {
       "path": "materials/02_仿真与控制配置/EXP5_UNIFIED_SATURATION_BENCHMARK.csv",
@@ -128,6 +118,21 @@
       "sha256": "625e10ffe951def1296608e4595464fc68f4e4a83cda92db9cdb783ccce9e66a"
     },
     {
+      "path": "materials/02_仿真与控制配置/config_e5_final.py",
+      "size": 4640,
+      "sha256": "e80d1bf628d9c930b2aaf0183eccd508312a777a29efc6a6fa0637373357b2c3"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/controller_e5_final_lc.py",
+      "size": 11469,
+      "sha256": "cda4e3b6f3f10297df0ece86b3ea3b953e2cf6b2e847583c1aff23464ee78bd1"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/parameter_sensitivity_small.py",
+      "size": 5845,
+      "sha256": "e1bf93ad59eb4c845a81489a659406d708d44b418bc37c59b99a628bf30a01ac"
+    },
+    {
       "path": "materials/02_仿真与控制配置/run_offline_fixed_modulation_benchmark.py",
       "size": 16302,
       "sha256": "dcc89ca3abd033e4e44ddc537dbce1473bfb50dff2ae9094cf7a3da1298396a0"
@@ -138,64 +143,29 @@
       "sha256": "7e591484a45797b96d1a7f9cd9dbe5d8a971249dc84282cb111a2932d63ae3e6"
     },
     {
-      "path": "materials/03_实物实验统计与图表/audit_lc_mechanism.py",
-      "size": 19728,
-      "sha256": "b90a7d497dc2899e2144fe6d578deadae15df285a28e9d7fc593291d1a43323e"
+      "path": "materials/02_仿真与控制配置/sensitivity_small/10mm_20s_LC_sensitivity_heatmaps.png",
+      "size": 124961,
+      "sha256": "cf9eaee5e8a9ea0016942e4c178e70cf2f80a79b24f502da5c8a4642a73cdb8c"
     },
     {
-      "path": "materials/03_实物实验统计与图表/EXP5_35BLOCKS_105TRIALS_COMPREHENSIVE_ANALYSIS.png",
-      "size": 1082170,
-      "sha256": "75dd77a50de864c2579658fda2c98456753eaffebce9dce1e79d8c5263bc292b"
+      "path": "materials/02_仿真与控制配置/sensitivity_small/50mm_6s_saturated_LC_sensitivity_heatmaps.png",
+      "size": 108603,
+      "sha256": "25ba9314885b3d5f624d3cf5c637b8aa2dbfec7b4ac96378210d0f9c5228c0bc"
     },
     {
-      "path": "materials/03_实物实验统计与图表/EXP5_35BLOCKS_105TRIALS_TRAJECTORY_PROFILES.png",
-      "size": 1778171,
-      "sha256": "b3b9fe8eb457a0b65a55acb85d9e6f844dbcb70f10b3b265179a2662a511e1bd"
+      "path": "materials/02_仿真与控制配置/sensitivity_small/LC_BLNN_small_parameter_sensitivity.csv",
+      "size": 7029,
+      "sha256": "8b80eb352117d31557cfd4f8e9f8c4b94025b2b9a1fc1fd2b8a8d9848134eb55"
     },
     {
-      "path": "materials/03_实物实验统计与图表/EXP5_35BLOCKS_DISTRIBUTION_AND_PAIRED_DIFFERENCES.png",
-      "size": 937020,
-      "sha256": "7e37b065897df29a60a97826f8b764ae9eb2728a49496d7e70ff3d550a3a3470"
+      "path": "materials/02_仿真与控制配置/sensitivity_small/LC_minus_Vanilla_differences.csv",
+      "size": 2005,
+      "sha256": "c8085af4ee4c4621364b051cf69a4aa906715578cad2ee6a399c824af62ac745"
     },
     {
-      "path": "materials/03_实物实验统计与图表/EXP5_35BLOCKS_REPRESENTATIVE_TIME_SERIES.png",
-      "size": 2959049,
-      "sha256": "9733b586af705f65ab2dd50e29514c0a63d65d275fd94277a90fcaab14009abc"
-    },
-    {
-      "path": "materials/03_实物实验统计与图表/EXP5_FORMAL_35BLOCKS_MASTER_DATA.csv",
-      "size": 29997,
-      "sha256": "a5ab8dd584df984236503c6b3a9ac75ac52f4556637d17cb1070d94300bee8b3"
-    },
-    {
-      "path": "materials/03_实物实验统计与图表/EXP5_MECHANISM_ANALYSIS_REPORT.md",
-      "size": 18246,
-      "sha256": "c6852cb68e208be1a6d50db958f0a5eca94de6572f0913ba89d93c53b4387d6a"
-    },
-    {
-      "path": "materials/03_实物实验统计与图表/EXP5_MECHANISM_DISCREPANCY_TO_RHO_VERIFICATION.png",
-      "size": 1102193,
-      "sha256": "a9cf1bab11e0b3c07176b86baa5e015796b7e0e2d70b7d35a93df37ef566500b"
-    },
-    {
-      "path": "materials/03_实物实验统计与图表/EXP5_TABLE1_FINAL_SUMMARY_STATISTICS.csv",
-      "size": 4657,
-      "sha256": "d9d54021081de000b5c6dc6c2c00dd387bf86e9f43f1aa6e2b08eeeec2288646"
-    },
-    {
-      "path": "materials/03_实物实验统计与图表/EXP5_TABLE2_PAIRED_DIFFERENCES_AND_TESTS.csv",
-      "size": 4038,
-      "sha256": "10e65060f8b5a54d1eea5df645e1feb8b299171c6d19f593fae822dc0996c79a"
-    },
-    {
-      "path": "materials/03_实物实验统计与图表/EXP5_TABLE3_DATA_QUALITY_AUDIT.csv",
-      "size": 896,
-      "sha256": "a0b543561b5bf1a7aa4e8b1293e5661831793f1b4ef847d7bef3eafb12c7e0a0"
-    },
-    {
-      "path": "materials/03_实物实验统计与图表/plot_mechanism_analysis.py",
-      "size": 19288,
-      "sha256": "dd0a4f635b216d2180459158642c153d101aaae200dd901616b9b8a95090ad93"
+      "path": "materials/02_仿真与控制配置/sensitivity_small/README.json",
+      "size": 499,
+      "sha256": "243b7487d502d6f2a94791b8cc93851aeaa6454aa37208af68a51394f18f6fa8"
     },
     {
       "path": "materials/04_参数身份与对应关系/parameter_identity_and_mismatch_ledger.json",
@@ -239,8 +209,8 @@
     },
     {
       "path": "materials/05_正式固件与原始数据索引/raw_experiment_data_index.md",
-      "size": 10311,
-      "sha256": "21e4e735c12f7e3932d1899834c167f4c0d314edc388a1a869ef7535885bbe2e"
+      "size": 7553,
+      "sha256": "7f65042bf6e6b95add21c989e1348366c2e51b7f308f2e21eb63e4112d6aedb6"
     },
     {
       "path": "materials/06_实物补测_探索性/all_attempts.csv",
@@ -256,11 +226,6 @@
       "path": "materials/06_实物补测_探索性/supplement_protocol.json",
       "size": 2893,
       "sha256": "99f3aef3cf32d0bd1c2879865ceeb199cab0966ab98140617573cfac954096ef"
-    },
-    {
-      "path": "materials/07_A线基础实验/experiment1_noload/experiment1_summary.json",
-      "size": 9750,
-      "sha256": "5d6b7892dee332f0d8352de055a749186bc8c2fcbe0266629a86ab8e7e4755ba"
     },
     {
       "path": "materials/07_A线基础实验/experiment1_noload/Figure_1_Position_tracking.png",
@@ -286,6 +251,11 @@
       "path": "materials/07_A线基础实验/experiment1_noload/README_实验1封档.txt",
       "size": 1109,
       "sha256": "27cc5d04ae11e72813975c9d397edffb473c4a01dbefae5a1a0b10f169ae959a"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment1_noload/experiment1_summary.json",
+      "size": 9750,
+      "sha256": "5d6b7892dee332f0d8352de055a749186bc8c2fcbe0266629a86ab8e7e4755ba"
     },
     {
       "path": "materials/07_A线基础实验/experiment1_noload/当前论文使用说明_20261018.md",
@@ -331,6 +301,11 @@
       "path": "materials/07_A线基础实验/experiment2_loadstep_2kg/当前论文使用说明_20261018.md",
       "size": 1824,
       "sha256": "05cdd5ce011ca9bf472d7c108582ef67b48fc26966ee1295d82959848a27c31b"
+    },
+    {
+      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/README_实验3封档说明.md",
+      "size": 3131,
+      "sha256": "d0d226ccd9192c7681d3405232b783dc8b1f0664fd94857c2594895ea3b1c70f"
     },
     {
       "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/formal_source/eassy_exp3_C2A_I2400_formal/experiment3_config.h",
@@ -418,11 +393,6 @@
       "sha256": "e145b678d0953e78267a8ba521ec7179f40687c5712b0dc5e29ea0d58381b9c7"
     },
     {
-      "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/README_实验3封档说明.md",
-      "size": 3131,
-      "sha256": "d0d226ccd9192c7681d3405232b783dc8b1f0664fd94857c2594895ea3b1c70f"
-    },
-    {
       "path": "materials/07_A线基础实验/experiment3_current_limit_sweep/图1_跟踪与同步性能.png",
       "size": 83835,
       "sha256": "415e15db241fc1275f10f5de781e989260b39dca4d11e30a5962f0e0d2b88a08"
@@ -488,6 +458,11 @@
       "sha256": "756b84c4473c6f697af1e2489376969e0e3e8be4bdbf79b0fb1253f641029bff"
     },
     {
+      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/README_实验4封档说明.md",
+      "size": 2768,
+      "sha256": "4bf988a98b64798f63e558ef5525f0f02984f8f60162010cbad0248e69c3eafe"
+    },
+    {
       "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/formal_source/eassy_exp4_C2B_L1200_R1200_formal/experiment3_config.h",
       "size": 3982,
       "sha256": "651f9ab6b7949533ea1773087b29718a6f3f9288795d35e33b841577459c7e4e"
@@ -551,11 +526,6 @@
       "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/processing/process_exp4_formal.py",
       "size": 26935,
       "sha256": "86206849c15e423144b88a7c56127fb6dce47b66b379cd1161fe497bfdd72616"
-    },
-    {
-      "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/README_实验4封档说明.md",
-      "size": 2768,
-      "sha256": "4bf988a98b64798f63e558ef5525f0f02984f8f60162010cbad0248e69c3eafe"
     },
     {
       "path": "materials/07_A线基础实验/experiment4_asymmetric_current_limits/图1_六种条件跟踪与同步性能.png",
@@ -638,9 +608,329 @@
       "sha256": "6d377f4b1b06131b09d142578daf2eec0fb94b67f57bee54b1429205683f6c33"
     },
     {
-      "path": "README.md",
-      "size": 2620,
-      "sha256": "2a873f347273eeb242a645641c5330240e4bd53d756c7bd11a42684b4f8b4b6e"
+      "path": "materials/08_多行程实验_20_300mm/100mm/EXP5_100MM_10BLOCKS_FINAL_MASTER.csv",
+      "size": 9677,
+      "sha256": "de4c8c309cb5fa78a2a95672e788704148cfc0145f95e6ab1f7f8a02c78c3d85"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/100mm/EXP5_100MM_10BLOCKS_FINAL_SUMMARY.csv",
+      "size": 505,
+      "sha256": "7ebc6c9d17850ef92ece8c3dbf6981a99f8ce8a09e58c06eafea8c6754857a43"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/100mm/compiled_firmwares/M1_BASE/M1_BASE.hex",
+      "size": 91287,
+      "sha256": "a28ea1a660b493d50b40e149deca9131f2f612fce3ab485ae80a1b368d2e30a3"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/100mm/compiled_firmwares/M1_BASE/experiment5_config.h",
+      "size": 9036,
+      "sha256": "93e3b90758532ac5853241ebbb00d93c2b54943a8b01af838dcee910147e50b2"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/100mm/compiled_firmwares/M2_BLNN/M2_BLNN.hex",
+      "size": 91311,
+      "sha256": "3b8ba17755c0df41663873d9dc150f462631502b0e7dd0cc9d76ab9ee067466e"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/100mm/compiled_firmwares/M2_BLNN/experiment5_config.h",
+      "size": 9036,
+      "sha256": "29ba4e106884ca42e1d1a1da2c20afb7e62a71d1310068e6baf764dda95cd01e"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/100mm/compiled_firmwares/M3_LCBLNN/M3_LCBLNN.hex",
+      "size": 91311,
+      "sha256": "5d103cf1838bd77b5f6b3ed370567253053a55ff3273fc607e6690b2f16711b7"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/100mm/compiled_firmwares/M3_LCBLNN/experiment5_config.h",
+      "size": 9036,
+      "sha256": "d23ef9029c9f5a7618bbcb47672b78a1f61a7ae61180a2f6a419dcb9815bff69"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/100mm/compiled_firmwares/firmware_manifest.json",
+      "size": 1066,
+      "sha256": "e2827f9ceff4c9cc1dd13d0ca5264cbef6cb1c1f575c75be03a09f9a2fcff5cc"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/200mm/EXP5_200MM_10BLOCKS_FINAL_MASTER.csv",
+      "size": 9707,
+      "sha256": "2b2b58fa84a9265b6c79ca792eff40bcd0fd3e86e51154066f3b4b6f3c1b3963"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/200mm/EXP5_200MM_10BLOCKS_FINAL_SUMMARY.csv",
+      "size": 507,
+      "sha256": "59cede1c7fb01541f494076efc259525a67ce608622f010822c85928339f69c8"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/200mm/compiled_firmwares/M1_BASE/M1_BASE.hex",
+      "size": 91287,
+      "sha256": "10d27f455c2819eab4a2a552d84623c3a03a2e6ed6b83e2053cc7bfec00821e3"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/200mm/compiled_firmwares/M1_BASE/experiment5_config.h",
+      "size": 9036,
+      "sha256": "b7dbba245f42fdffe538d275f3fc93e0ad8082d23ef5266082127ba8905a8d2b"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/200mm/compiled_firmwares/M2_BLNN/M2_BLNN.hex",
+      "size": 91311,
+      "sha256": "f825c63ab974508893d5dd466369226f75fd0b1fcb603e4797c5a0c2e65af370"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/200mm/compiled_firmwares/M2_BLNN/experiment5_config.h",
+      "size": 9036,
+      "sha256": "bffb59588d520198cb0cffe831af7af3c10dbc55c571630057a0811a61760fff"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/200mm/compiled_firmwares/M3_LCBLNN/M3_LCBLNN.hex",
+      "size": 91311,
+      "sha256": "f9bfd46161a56d85f0fe95d27407b919494039c4639d56c229ca0cacca395071"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/200mm/compiled_firmwares/M3_LCBLNN/experiment5_config.h",
+      "size": 9036,
+      "sha256": "9bbd076517bdd116f61348465f0056fccec24ec6465ddbbe212537a1f357b0d1"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/200mm/compiled_firmwares/firmware_manifest.json",
+      "size": 1066,
+      "sha256": "6ce5a88edb6aa8a209b25dc8066337edceffa44958ebf022cfddfc55cb3bfd21"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/20mm/EXP5_20MM_10BLOCKS_FINAL_MASTER.csv",
+      "size": 9559,
+      "sha256": "c351b137462f030afb0c60927a3e211b27d5bf1c8a756309b7dca2f9302ab67b"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/20mm/EXP5_20MM_10BLOCKS_FINAL_SUMMARY.csv",
+      "size": 508,
+      "sha256": "0f4c6988659570e2f33532088ad8c185f97efd278733c80b6036a54e466d4dfb"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/20mm/compiled_firmwares/M1_BASE/M1_BASE.hex",
+      "size": 91287,
+      "sha256": "ba829e8226314d7300238b3ce4212edafa9d6fa1f92d5052ebb969be20f23b03"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/20mm/compiled_firmwares/M1_BASE/experiment5_config.h",
+      "size": 9035,
+      "sha256": "6b3dfdf0f8b21b340cfa4350336172644486dad3ac84a8db4b936f9e9fe36848"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/20mm/compiled_firmwares/M2_BLNN/M2_BLNN.hex",
+      "size": 91311,
+      "sha256": "3289bcdf2467f7543e241940b41d0e2d2b3f56a097564d6a94ba4812d4fef5d5"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/20mm/compiled_firmwares/M2_BLNN/experiment5_config.h",
+      "size": 9035,
+      "sha256": "d3c79ef72715a7eb03fe805e882478e1f3404e7add439510042c4971b26c36b8"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/20mm/compiled_firmwares/M3_LCBLNN/M3_LCBLNN.hex",
+      "size": 91311,
+      "sha256": "21f5f7c29e3aced4e586de3c0d657238926fc506b4a3228af626738bb34a69b2"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/20mm/compiled_firmwares/M3_LCBLNN/experiment5_config.h",
+      "size": 9035,
+      "sha256": "cca62e6bb44ef251354530538e94e816d63a9f9b65bc9d8722351c53902ec07f"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/20mm/compiled_firmwares/firmware_manifest.json",
+      "size": 1788,
+      "sha256": "b53b07e74a4ec43f8be3d1359fb3f3f44a2c7f732be15c897d0f58fb0b8ddd99"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/300mm/EXP5_300MM_10BLOCKS_FINAL_MASTER.csv",
+      "size": 9713,
+      "sha256": "a8ed54d568dcc4ae4c7fe06c69f75b0cbd64e8b6ac3bd7cce09b97a18844b312"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/300mm/EXP5_300MM_10BLOCKS_FINAL_SUMMARY.csv",
+      "size": 507,
+      "sha256": "152703e6c6a79a94f8108c2a77b7048c3b20075a79da9080a33ad2c8d3e064a0"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/300mm/compiled_firmwares/M1_BASE/M1_BASE.hex",
+      "size": 91287,
+      "sha256": "7623a90a39a7e0f414039d8e7c7c6cb2c451b605751a8419878c32cea6c3b079"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/300mm/compiled_firmwares/M1_BASE/experiment5_config.h",
+      "size": 9036,
+      "sha256": "7dcc6771cefe1a2ec2414fdc55583a5a10a76e3617fdc6df376c73177e352de0"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/300mm/compiled_firmwares/M2_BLNN/M2_BLNN.hex",
+      "size": 91311,
+      "sha256": "2dfc61c2861357c73643decc2b4c83ac9ef0576f62d2351affdf63775cfd1088"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/300mm/compiled_firmwares/M2_BLNN/experiment5_config.h",
+      "size": 9036,
+      "sha256": "39d445dee11227f67b41e2dfb5f87b72641c9d46e195fc304d6830d21cc37b39"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/300mm/compiled_firmwares/M3_LCBLNN/M3_LCBLNN.hex",
+      "size": 91311,
+      "sha256": "186637c4208d053aa744350ab9b129a0f735eeaee5e9713e79430c1c088ca03d"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/300mm/compiled_firmwares/M3_LCBLNN/experiment5_config.h",
+      "size": 9036,
+      "sha256": "f866a0b6742bec289a9cfa668bfc1c5c2e54b16871c25c317981db6883be18bc"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/300mm/compiled_firmwares/firmware_manifest.json",
+      "size": 1066,
+      "sha256": "adfb933d79e77cffa90217aacb53e3184243e17ecebac2a628ba1ea80da8f2a2"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/30mm/EXP5_30MM_10BLOCKS_FINAL_MASTER.csv",
+      "size": 9517,
+      "sha256": "4baa9a49a381c481abf7caf13ada5cd891ffb1d287b8e58a444bb9752a5f1b91"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/30mm/EXP5_30MM_10BLOCKS_FINAL_SUMMARY.csv",
+      "size": 505,
+      "sha256": "39a379ba0bb68b022390dc1dfc9dc28000059d3b5d80f067e0458ba68f311e37"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/30mm/compiled_firmwares/M1_BASE/M1_BASE.hex",
+      "size": 91287,
+      "sha256": "375eaff1120894ae329d245d7e09a41b7c3c2d90611e7c6fc1c4e96be3befabf"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/30mm/compiled_firmwares/M1_BASE/experiment5_config.h",
+      "size": 9035,
+      "sha256": "db212fc9e0af95c164e33276b80f7d5cb9adad8dba37cb6509bf806eaa27fc05"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/30mm/compiled_firmwares/M2_BLNN/M2_BLNN.hex",
+      "size": 91311,
+      "sha256": "82f7f8686d5eafe131e454bed565470d7d0a4ba9e8f42caea6f3894df80418d5"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/30mm/compiled_firmwares/M2_BLNN/experiment5_config.h",
+      "size": 9035,
+      "sha256": "581877408110262b773dfd029ec825c6a0262283c0e3d75eb617e0a4089512fb"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/30mm/compiled_firmwares/M3_LCBLNN/M3_LCBLNN.hex",
+      "size": 91311,
+      "sha256": "97cae6b77ec4bbb8d16b7ee9b997be2fdff2c30e23e3d090ea504fcc09381099"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/30mm/compiled_firmwares/M3_LCBLNN/experiment5_config.h",
+      "size": 9035,
+      "sha256": "025df7b7467a1003a685f5ac0445268c6aae532bdadbd303777ddf9f864d52b4"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/30mm/compiled_firmwares/firmware_manifest.json",
+      "size": 1069,
+      "sha256": "da33ea85fccb59439d97ff3a993a25304e9c80141b6a054e574d957068b49503"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/40mm/EXP5_40MM_10BLOCKS_FINAL_MASTER.csv",
+      "size": 9556,
+      "sha256": "32485643b27ce0e12df5763321b1dfa2d563be44afa97f66ddac68f5f8700b37"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/40mm/EXP5_40MM_10BLOCKS_FINAL_SUMMARY.csv",
+      "size": 506,
+      "sha256": "df26ee1192da99eb0366f2defc76faa6ea4d364a50615a32858a3a9073893eca"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/40mm/compiled_firmwares/M1_BASE/M1_BASE.hex",
+      "size": 91287,
+      "sha256": "78b4b7a4f3a57b136f4a98b501a607f799d795dde0cf16d59e32aaedeecfa421"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/40mm/compiled_firmwares/M1_BASE/experiment5_config.h",
+      "size": 9035,
+      "sha256": "83dfcd75172db10ad674fa95fbfa8a2b27920cb71720d43b9f3af748f68382d2"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/40mm/compiled_firmwares/M2_BLNN/M2_BLNN.hex",
+      "size": 91311,
+      "sha256": "b9e19df32629701c104f163ca2c765298bd62e89b63827eaa236527fb1d76d4f"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/40mm/compiled_firmwares/M2_BLNN/experiment5_config.h",
+      "size": 9035,
+      "sha256": "1825f76f3bce2fc8f45e243ea1a2bf1f4af78470c2e93e87ebca359c757662a4"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/40mm/compiled_firmwares/M3_LCBLNN/M3_LCBLNN.hex",
+      "size": 91311,
+      "sha256": "f1471ed47599443ab2a0d6deeefcc4197b84a13ba5aca5e7c1ca55dc105a091b"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/40mm/compiled_firmwares/M3_LCBLNN/experiment5_config.h",
+      "size": 9035,
+      "sha256": "a0283536b796151fb6557092d8c0ce72eda8f63cb228de37a42ddeb659ed962d"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/40mm/compiled_firmwares/firmware_manifest.json",
+      "size": 1069,
+      "sha256": "39b243b60ff2b65c9693ad22f6bb793d7a63baf415d2a35e552346f08cf873e7"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/50mm/EXP5_50MM_10BLOCKS_FINAL_MASTER.csv",
+      "size": 9562,
+      "sha256": "c278f4f3ee50ff53b465f29627eba87dc685608cfe09ea3eff6dc28e76ef6f10"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/50mm/EXP5_50MM_10BLOCKS_FINAL_SUMMARY.csv",
+      "size": 508,
+      "sha256": "042b30bb67e9feaf9f6efcb535b206ab06143045082e0083ab9b75239b3eb8ed"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/50mm/compiled_firmwares/M1_BASE/M1_BASE.hex",
+      "size": 91287,
+      "sha256": "87a3255dad88674e31766e203256d5baa1ef33af9cfd67860803615d3a838835"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/50mm/compiled_firmwares/M1_BASE/experiment5_config.h",
+      "size": 9036,
+      "sha256": "70ad0bd0d61ff2cc47a3517a8736a6fadc6ae91e3bfef1a145d9560cb44dd88a"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/50mm/compiled_firmwares/M2_BLNN/M2_BLNN.hex",
+      "size": 91311,
+      "sha256": "da7cea95fcc52e593a622ad16944e1d23ba538b1f4cc4783d15adbe005cfff72"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/50mm/compiled_firmwares/M2_BLNN/experiment5_config.h",
+      "size": 9036,
+      "sha256": "4f64c2a6ad179ec1b942884a080f9dd98885aa80e5cd6b13a563b4f2dde17f2a"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/50mm/compiled_firmwares/M3_LCBLNN/M3_LCBLNN.hex",
+      "size": 91311,
+      "sha256": "6f5371125baa80e61322d54e4bf247e4702d206832046e037ac9734fc8b75249"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/50mm/compiled_firmwares/M3_LCBLNN/experiment5_config.h",
+      "size": 9036,
+      "sha256": "4e3553dd62feb7a6018116f5688799c5398b8c573d374c7fd6b810f3745d6511"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/50mm/compiled_firmwares/firmware_manifest.json",
+      "size": 1069,
+      "sha256": "504a32c036a8d5baf3767475a80e7a47ef1e5fbdf83e9728e1b1d4aadcec1c93"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/MULTISTROKE_AUDIT.csv",
+      "size": 775,
+      "sha256": "6a88d0f5dd1640e3dc970da8662826c431b998366a01a439cfd83dbf8939f4a4"
+    },
+    {
+      "path": "materials/08_多行程实验_20_300mm/README.md",
+      "size": 1116,
+      "sha256": "d59b044258a1cccd83b5a4e0605ba624a54328ef6da40852a9b512b4b4fabebf"
     },
     {
       "path": "requirements.txt",
