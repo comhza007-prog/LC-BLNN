@@ -63,9 +63,9 @@
   * `EXP5_DIAG_LCBLNN_20261017_100439.bin/.csv`: 实机动态 LC 协调机制与抗饱和状态诊断
 - **定位定性**：系正式 35 块主实验开始前在物理实验台上开展的**真实嵌入式固件与传感器通信诊断试运行**，证实了 DMA 遥测队列无丢帧（`enqueue_drop = 0`）、控制执行耗时正常（单步平均约 $45\,\mu\text{s}$）。不混入正式 105 次主实验配对统计中。
 
-### 4.2 离线固定调制消融仿真算例 (Offline Fixed-Modulation Simulation Benchmark)
-- **数据存放路径**：[`D:\lunwen2\all\all\02_仿真与控制配置\EXP5_OFFLINE_FIXED_MODULATION_BENCHMARK.csv`](../02_仿真与控制配置/EXP5_OFFLINE_FIXED_MODULATION_BENCHMARK.csv)
-- **对应图表文件**：[`D:\lunwen2\all\all\02_仿真与控制配置\EXP5_OFFLINE_FIXED_MODULATION_COMPARISON.png`](../02_仿真与控制配置/EXP5_OFFLINE_FIXED_MODULATION_COMPARISON.png)
-- **生成脚本路径**：[`D:\lunwen2\all\all\02_仿真与控制配置\run_offline_fixed_modulation_benchmark.py`](../02_仿真与控制配置/run_offline_fixed_modulation_benchmark.py)
-- **定位定性**：系纯 Python **离线数值仿真消融算例**，用于算法设计初期探索固定参数折减（如 $\rho=0.5$）与动态调制的对比。明确区分于物理实验台采集数据，不作为论文实物效能论据，仅作为算法演进的仿真参考。
-
+### 4.2 逐行程对应离线仿真结果
+- **结果目录**：[`D:\lunwen2\all\all\02_仿真与控制配置\multistroke_simulation\`](../02_仿真与控制配置/multistroke_simulation/)
+- **主结果表**：[`EXP5_MULTISTROKE_SIMULATION_SUMMARY.csv`](../02_仿真与控制配置/multistroke_simulation/EXP5_MULTISTROKE_SIMULATION_SUMMARY.csv)
+- **相对 BLNN 表**：[`EXP5_MULTISTROKE_SIMULATION_RELATIVE_TO_BLNN.csv`](../02_仿真与控制配置/multistroke_simulation/EXP5_MULTISTROKE_SIMULATION_RELATIVE_TO_BLNN.csv)
+- **生成脚本**：[`run_multistroke_benchmark.py`](../02_仿真与控制配置/run_multistroke_benchmark.py)
+- **定位定性**：纯 Python 离线数值仿真，严格复现 10、20、30、40、50、100、200、300 mm 各行程固件的 20 s 参考轨迹，统一比较 BLNN、固定调制与 LC-BLNN；不修改或替代实物原始记录。

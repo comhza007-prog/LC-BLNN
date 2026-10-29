@@ -1,0 +1,22 @@
+{
+  "strokes_mm": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    100,
+    200,
+    300
+  ],
+  "methods": [
+    "BLNN",
+    "Fixed modulation",
+    "LC-BLNN"
+  ],
+  "trajectory": "严格复现 motor_task.c：4s预保持+4s五次平滑前进+2s保持+4s五次平滑返回+6s恢复保持，总时长20s",
+  "controller_limits_counts": 800,
+  "plant_mass_kg": 3.0,
+  "controller_nominal_mass_kg": 12.445,
+  "note": "按各行程 motor_task.c 真实20 s五次平滑轨迹重算；不修改实物数据。"
+}

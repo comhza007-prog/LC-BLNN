@@ -1,5 +1,5 @@
 {
-  "total_files": 35,
+  "total_files": 34,
   "files": [
     {
       "relative_path": "00_写作入口与来源清单\\00_论文写作事实清单与终版入口.md",
@@ -56,34 +56,10 @@
       "size_bytes": 28843
     },
     {
-      "relative_path": "02_仿真与控制配置\\EXP5_OFFLINE_FIXED_MODULATION_BENCHMARK.csv",
-      "file_name": "EXP5_OFFLINE_FIXED_MODULATION_BENCHMARK.csv",
-      "sha256": "0c62dbea24e1899fa775f9721bc44377cb21a5f5562049b6f222c7beecfa0709",
-      "size_bytes": 687
-    },
-    {
-      "relative_path": "02_仿真与控制配置\\EXP5_OFFLINE_FIXED_MODULATION_COMPARISON.png",
-      "file_name": "EXP5_OFFLINE_FIXED_MODULATION_COMPARISON.png",
-      "sha256": "28755d1f8ce77a43ce7fb206566b366bd87ea1408ce810f1e4d49d8116d25d6d",
-      "size_bytes": 539126
-    },
-    {
       "relative_path": "02_仿真与控制配置\\EXP5_SIMULATION_EXPLANATION.md",
       "file_name": "EXP5_SIMULATION_EXPLANATION.md",
       "sha256": "9f94149a134ee3a0194a70875ee504f02a3c0e102e655824f04c5e323c891332",
       "size_bytes": 7339
-    },
-    {
-      "relative_path": "02_仿真与控制配置\\EXP5_UNIFIED_SATURATION_BENCHMARK.csv",
-      "file_name": "EXP5_UNIFIED_SATURATION_BENCHMARK.csv",
-      "sha256": "160e23e665eafa846458bfdad2b3b6586f1c021b56a55623083699013c3ffff8",
-      "size_bytes": 1018
-    },
-    {
-      "relative_path": "02_仿真与控制配置\\EXP5_UNIFIED_SATURATION_COMPARISON.png",
-      "file_name": "EXP5_UNIFIED_SATURATION_COMPARISON.png",
-      "sha256": "625e10ffe951def1296608e4595464fc68f4e4a83cda92db9cdb783ccce9e66a",
-      "size_bytes": 680762
     },
     {
       "relative_path": "02_仿真与控制配置\\config_e5_final.py",
@@ -96,18 +72,6 @@
       "file_name": "controller_e5_final_lc.py",
       "sha256": "cda4e3b6f3f10297df0ece86b3ea3b953e2cf6b2e847583c1aff23464ee78bd1",
       "size_bytes": 11469
-    },
-    {
-      "relative_path": "02_仿真与控制配置\\run_offline_fixed_modulation_benchmark.py",
-      "file_name": "run_offline_fixed_modulation_benchmark.py",
-      "sha256": "dcc89ca3abd033e4e44ddc537dbce1473bfb50dff2ae9094cf7a3da1298396a0",
-      "size_bytes": 16302
-    },
-    {
-      "relative_path": "02_仿真与控制配置\\run_unified_saturation_benchmark.py",
-      "file_name": "run_unified_saturation_benchmark.py",
-      "sha256": "7e591484a45797b96d1a7f9cd9dbe5d8a971249dc84282cb111a2932d63ae3e6",
-      "size_bytes": 13921
     },
     {
       "relative_path": "03_实物实验统计与图表\\EXP5_35BLOCKS_105TRIALS_COMPREHENSIVE_ANALYSIS.png",
@@ -210,6 +174,36 @@
       "file_name": "raw_experiment_data_index.md",
       "sha256": "96cdbbc5292e11edc795745ea34270f92383713260c7c788b1dc42bddcbc3db5",
       "size_bytes": 10449
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\run_multistroke_benchmark.py",
+      "file_name": "run_multistroke_benchmark.py",
+      "sha256": "c147366a305213c9eb8964a5507cb2b012733f2dd69b78937bde5aa21cb1e093",
+      "size_bytes": 4452
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\simulation_core.py",
+      "file_name": "simulation_core.py",
+      "sha256": "6257bf06c5ef0feb2ece15fe77bf8d1d2184657eaf3533b1583c59baba16a5e9",
+      "size_bytes": 2921
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\multistroke_simulation\\EXP5_MULTISTROKE_SIMULATION_SUMMARY.csv",
+      "file_name": "EXP5_MULTISTROKE_SIMULATION_SUMMARY.csv",
+      "sha256": "32366c3fc76f648611f432d26ecd6b17748646ca8613f48a64e5fa1a6de97e2a",
+      "size_bytes": 3488
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\multistroke_simulation\\EXP5_MULTISTROKE_SIMULATION_RELATIVE_TO_BLNN.csv",
+      "file_name": "EXP5_MULTISTROKE_SIMULATION_RELATIVE_TO_BLNN.csv",
+      "sha256": "9ee2b2a50e6d41f1b535c13341771e240d5bbf512cff54c99f04ad71aa1fe171",
+      "size_bytes": 1444
+    },
+    {
+      "relative_path": "02_仿真与控制配置\\multistroke_simulation\\README.json",
+      "file_name": "README.json",
+      "sha256": "351c732555d26cb92e434e9a41075360f342ef6430d2e459249535a6d8e53655",
+      "size_bytes": 522
     }
   ]
 }
