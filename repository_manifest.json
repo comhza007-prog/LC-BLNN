@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "purpose": "LC-BLNN research materials with exact 10–300 mm matched simulations and multi-stroke experiments",
+  "date": "2026-11-02",
+  "purpose": "LC-BLNN research materials: 10–300 mm multi-stroke experiments and calibrated multi-condition simulations",
   "files": [
     {
       "path": ".gitattributes",
@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "size": 3105,
-      "sha256": "d59c4ed882064cd8ff46a8242b7066bf2588e666d423bf52d5ea06e21228b888"
+      "size": 3508,
+      "sha256": "49fd428f807504775eb7ac2e5bc7ad0d360f1ab10025952389803cda6787957a"
     },
     {
       "path": "data/A_foundation_source_manifest.json",
@@ -24,8 +24,8 @@
     },
     {
       "path": "docs/01_研究方向与创新点.md",
-      "size": 2460,
-      "sha256": "1ca52b0c2871955481ea9e6ebaf6780d87d2ccaa687b2cd4e81e51024c37e4ac"
+      "size": 2835,
+      "sha256": "f934cf99cb3430c763669c76aca1df4877c3785ad448c4ec24801a8a6cf84006"
     },
     {
       "path": "docs/02_论文闭环逻辑与章节安排.md",
@@ -34,8 +34,8 @@
     },
     {
       "path": "docs/03_材料与复算说明.md",
-      "size": 3347,
-      "sha256": "464ea9290ec9478a9898ee3e7e58e2bff643d85270bde3b6b239f28e4f6d46d8"
+      "size": 3464,
+      "sha256": "d7005b81f33a8fbc59cc8e2d87da4f727ef8b4b15f53848d505ff6e109bd15e0"
     },
     {
       "path": "docs/04_A基础与B主线对应.md",
@@ -93,44 +93,119 @@
       "sha256": "3cd44fa10e9975a247d116be2a11e365594209d4934bbe7d79cab3da6fa5be74"
     },
     {
-      "path": "materials/02_仿真与控制配置/EXP5_SIMULATION_EXPLANATION.md",
-      "size": 1590,
-      "sha256": "ff89bc4ae8e4aafcc8d633813741e176238aa9f2c90a53c0e258433b9aa52865"
+      "path": "materials/02_仿真与控制配置/README.md",
+      "size": 7663,
+      "sha256": "22dbb3f76ebdecc5194a4aca741bad180889d2cfdbb8e35497deecb8f201fb77"
     },
     {
-      "path": "materials/02_仿真与控制配置/config_e5_final.py",
+      "path": "materials/02_仿真与控制配置/code/build_hardware_table.py",
+      "size": 624,
+      "sha256": "bec047f163c7d3f7b879451b9a2478e0086eedcfd093fd7a08fd222b7b129b80"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/code/calibrate_plant.py",
+      "size": 2561,
+      "sha256": "b2a27169ed546ef4417343957f0fad2cfc70eb64df5b441ea06e50f9d32a374d"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/code/compare_methods.py",
+      "size": 1820,
+      "sha256": "e9cc76a393ee6559839c13f74f07c8156ea452b385d99e769ed83f6477136952"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/code/config_e5_final.py",
       "size": 4640,
       "sha256": "e80d1bf628d9c930b2aaf0183eccd508312a777a29efc6a6fa0637373357b2c3"
     },
     {
-      "path": "materials/02_仿真与控制配置/controller_e5_final_lc.py",
-      "size": 11469,
-      "sha256": "cda4e3b6f3f10297df0ece86b3ea3b953e2cf6b2e847583c1aff23464ee78bd1"
+      "path": "materials/02_仿真与控制配置/code/controller_e5_final_lc.py",
+      "size": 12309,
+      "sha256": "3fe095a9ddb98314fea1a5a734b41acd22e5fbbcf520e523002d95c5ba695b77"
     },
     {
-      "path": "materials/02_仿真与控制配置/multistroke_simulation/EXP5_MULTISTROKE_SIMULATION_RELATIVE_TO_BLNN.csv",
-      "size": 1444,
-      "sha256": "9ee2b2a50e6d41f1b535c13341771e240d5bbf512cff54c99f04ad71aa1fe171"
+      "path": "materials/02_仿真与控制配置/code/plant_sim.py",
+      "size": 5053,
+      "sha256": "306a178537973603b6011a0a87bbc307225fa2c42f504d012f56e17a58539c3c"
     },
     {
-      "path": "materials/02_仿真与控制配置/multistroke_simulation/EXP5_MULTISTROKE_SIMULATION_SUMMARY.csv",
-      "size": 3488,
-      "sha256": "32366c3fc76f648611f432d26ecd6b17748646ca8613f48a64e5fa1a6de97e2a"
+      "path": "materials/02_仿真与控制配置/code/plot_rho.py",
+      "size": 1765,
+      "sha256": "70bc676f790cdb44c0239a26bc35ba96f2dbbbbb6192873d5ceefbe5117e85a9"
     },
     {
-      "path": "materials/02_仿真与控制配置/multistroke_simulation/README.json",
-      "size": 522,
-      "sha256": "351c732555d26cb92e434e9a41075360f342ef6430d2e459249535a6d8e53655"
+      "path": "materials/02_仿真与控制配置/code/summarize_comparison.py",
+      "size": 1493,
+      "sha256": "5f32afb9790c9605c8b20ecfe75f08e421fa1ec62dbd3fbf43a9350b3cfec649"
     },
     {
-      "path": "materials/02_仿真与控制配置/run_multistroke_benchmark.py",
-      "size": 4452,
-      "sha256": "c147366a305213c9eb8964a5507cb2b012733f2dd69b78937bde5aa21cb1e093"
+      "path": "materials/02_仿真与控制配置/code/summarize_validation.py",
+      "size": 2419,
+      "sha256": "f8c39e04964c6673d1137dedd8ab7fb9c53f74609df9a9fa548652578e6a2d05"
     },
     {
-      "path": "materials/02_仿真与控制配置/simulation_core.py",
-      "size": 2921,
-      "sha256": "6257bf06c5ef0feb2ece15fe77bf8d1d2184657eaf3533b1583c59baba16a5e9"
+      "path": "materials/02_仿真与控制配置/code/trajectory.py",
+      "size": 1075,
+      "sha256": "793b404fa01fca821180ebbaea3fe6dc6679f7247032d87b5ed053a6788d60ba"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/code/validate_calibrated.py",
+      "size": 1520,
+      "sha256": "32e2fa7b51cecb06d8cf782066a07381dfecc4a393423ab75dfc934620ea5265"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/results/01_calibration/calibration_search.csv",
+      "size": 64593,
+      "sha256": "f19753bcf5d36dcaf8c302faa658baf70fa7c6fdc8958083c02f5df65005c1c4"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/results/02_nominal_800/comparison_Global_Freeze.csv",
+      "size": 36370,
+      "sha256": "7676f5acab26d16b2c288b27acf6a683c72146bb631af5e42710b8bdf578ed79"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/results/02_nominal_800/validation_M1_M2_Fixed_LC.csv",
+      "size": 67676,
+      "sha256": "dc55c3bd61472ecde7b4baac1cf90325120101ed67e56840e061f5056647f49a"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/results/03_strong_600/comparison_all_methods.csv",
+      "size": 108324,
+      "sha256": "ae1a7227daa21fe2fea1b258e0ed74a0afa31f6fd8b21e540cd5a33e5be0a720"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/results/04_overlimit_400/comparison_all_methods.csv",
+      "size": 88413,
+      "sha256": "fe0f0eb27fcc4ff95d0afee4be2be8d4688bf3b3dbbd4a1cdcb3c0848d92d5ca"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/results/05_robustness/high_friction_x2_800.csv",
+      "size": 103373,
+      "sha256": "feb005fdd2abfcf73b217510a7f6fdfba0c05e14832985a465b3088de4e4adf7"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/results/05_robustness/side_resistance_15pct_800.csv",
+      "size": 67236,
+      "sha256": "638c71de0df8520c3f96fe6fd50ae7f29cc49733d8e09fa7229e76326d805805"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/results/05_robustness/side_resistance_30pct_800.csv",
+      "size": 67138,
+      "sha256": "53581131dc1dbd6647649a7522aaf0ecc9c8160f2dcb1eb5e9ffd031ae71e7a9"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/results/all_conditions_means.csv",
+      "size": 14386,
+      "sha256": "d765ca7d2b61aca223a118898f4de5615294166ba779f303831d11f450f3011d"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/results/figures/fig_rho_real_vs_sim.png",
+      "size": 88021,
+      "sha256": "619274903447ca3c34c68206c4b3d44958371b03d5135deb6583ae8abb9d5a85"
+    },
+    {
+      "path": "materials/02_仿真与控制配置/results/plant_identified.json",
+      "size": 1027,
+      "sha256": "0f0e30c58cb308ce2cfe3e09c160b804e5a76b11b10a3e77ae8c5dfcfa79ef0f"
     },
     {
       "path": "materials/04_参数身份与对应关系/parameter_identity_and_mismatch_ledger.json",
@@ -139,8 +214,8 @@
     },
     {
       "path": "materials/04_参数身份与对应关系/parameter_identity_and_mismatch_ledger.md",
-      "size": 4180,
-      "sha256": "74e36f3fcbb33daa66cbef5b493cf99467c73d037cb298ae23ccd3c750935466"
+      "size": 4276,
+      "sha256": "c4de70b6e2702c4598f54629ad24fe3d65ecaa2cded41e611aea94e490b04d11"
     },
     {
       "path": "materials/05_正式固件与原始数据索引/firmware/controller_e5_blnn_lc.c",
@@ -174,8 +249,8 @@
     },
     {
       "path": "materials/05_正式固件与原始数据索引/raw_experiment_data_index.md",
-      "size": 7476,
-      "sha256": "5c9606cc2466a72783da818f7aa29a1e8946193e6dba5f28667000d7b57a9dd2"
+      "size": 7075,
+      "sha256": "4f757bbde9be14aceb59b961b59bd23ebee3b1d600b4be0a027bce2f6c27ec19"
     },
     {
       "path": "materials/06_实物补测_探索性/all_attempts.csv",

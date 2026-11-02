@@ -23,6 +23,8 @@ class E5FinalController:
           - 'LC': 动态学习协调 (rho dynamically driven by delta_v_total)
           - 'FIXED': 固定调制 (rho fixed to fixed_c=(c_y, c_alpha))
           - 'VANILLA': 普通 BLNN (rho == (1.0, 1.0))
+          - 'GLOBAL': 对比方法，全局饱和度调制：按两侧电流截断量最大值算单一标量 rho，两通道共用
+          - 'FREEZE': 对比方法，饱和冻结：分配器饱和时权值更新（含泄漏项）整体置零
         """
         self.cfg = cfg if cfg is not None else ControllerConfig()
         self.mode = mode.upper()
@@ -214,11 +216,20 @@ class E5FinalController:
             
             chi_a = (abs(delta_Ta_tot) / (0.5 * cfg.Le * (cfg.Kf_L + cfg.Kf_R))) / max_Imax
             rho_alpha = 1.0 / (1.0 + cfg.gamma_lc * (chi_a ** 2))
+        elif self.mode == "GLOBAL":
+            # single scalar from overall actuator saturation degree, shared by both modes
+            max_Imax = max(cfg.Imax_L, cfg.Imax_R)
+            chi_g = max(abs(iL_act - i_ideal_L), abs(iR_act - i_ideal_R)) / max_Imax
+            rho_y = rho_alpha = 1.0 / (1.0 + cfg.gamma_lc * (chi_g ** 2))
+        elif self.mode == "FREEZE":
+            rho_y = rho_alpha = 0.0 if (is_sat_t or is_sat_q) else 1.0
         else:
             raise ValueError(f"Unknown mode: {self.mode}")
-            
+
+        # FREEZE: whole update (drive + leakage) stopped while saturated
+        freeze_now = (self.mode == "FREEZE") and (is_sat_t or is_sat_q)
         # 权值自适应更新 (仅调制误差项，保留泄漏项)
-        if cfg.enable_blnn:
+        if cfg.enable_blnn and not freeze_now:
             for j in range(4):
                 for m in range(3):
                     W_dot_y = cfg.nn_eps_y * (rho_y * sigma_y * S_y[j, m] - cfg.nn_eta_y * self.W_y[j, m])

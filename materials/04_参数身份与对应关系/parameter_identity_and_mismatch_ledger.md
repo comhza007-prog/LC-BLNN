@@ -8,7 +8,7 @@
 
 | 参数符号 | 标称数值与单位 | 身份定性 | 客观事实与来源追溯 | 在系统与代码中的作用 |
 |---|---|---|---|---|
-| **$m_{\rm mech}$** | **$3.0\,\text{kg}$** | **实测机械质量** (Measured Mechanical Mass) | 物理实验平台空载门架双驱台车、同步带传动机构与双侧导轨滑块的**真实机械秤重质量**。 | 用于描述被控物理对象空载状态下的真实基准惯量；在连续分析模型 [`continuous_closed_loop_model.py`](../01_理论分析与连续模型/continuous_closed_loop_model.py) 中定义为 `PlantPhysicalParameters.m_mech_kg = 3.0`，并在统一离散仿真配置 [`config_e5_final.py`](../02_仿真与控制配置/config_e5_final.py) 中统一为 `PlantConfig.m_G = 3.0`。 |
+| **$m_{\rm mech}$** | **$3.0\,\text{kg}$** | **实测机械质量** (Measured Mechanical Mass) | 物理实验平台空载门架双驱台车、同步带传动机构与双侧导轨滑块的**真实机械秤重质量**。 | 用于描述被控物理对象空载状态下的真实基准惯量；在连续分析模型 [`continuous_closed_loop_model.py`](../01_理论分析与连续模型/continuous_closed_loop_model.py) 中定义为 `PlantPhysicalParameters.m_mech_kg = 3.0`，并在旧版离散仿真配置 [`config_e5_final.py`](../02_仿真与控制配置/code/config_e5_final.py) 中为 `PlantConfig.m_G = 3.0`（新版仿真不使用该对象参数，等效惯量由实测辨识，见仿真目录 README）。 |
 | **$m_G$** | **$4.0\,\text{kg}$** | **对象假设参数** (Plant Hypothesis Mass) | 早期部分仿真与工况推演中历史沿用的**被控对象假设参数**（历史算例假设值）。 | 曾用于部分早期仿真对比脚本；**不作为物理秤重实测值**，仅作为特定算例中的仿真设定。在本次最终收尾中，统一基准仿真已明确归正为使用实测真值 3.0 kg。 |
 | **$\hat{M}_y$** | **$12.445\,\text{kg}$** | **历史控制器名义模型系数** (Controller Nominal Mass Coefficient) | 嵌入式固件历史沿用的控制器内部名义模型参数，追溯来源为：**直接沿用前期第 3 次实验固件配置文件 `experiment3_config.h` 中的设定值**（宏定义 `#define EXP3_C2_M_Y 12.445f`）。 | **并非台车秤重质量**，亦非滚珠丝杠折算。系早期实验配置文件中留存的名义模型基准设定值，沿用至第 5 次实验固件 `experiment5_config.h` 中，用于计算滑模前馈参考加速度力矩与前馈项。 |
 

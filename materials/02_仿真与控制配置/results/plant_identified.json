@@ -1,0 +1,20 @@
+{
+  "note": "仿真对象参数，仅依据实物 M1_BASE（不含网络）在 10/50/300 mm 的实测中位数辨识（120 组全局随机搜索的最优解）。辨识目标：跟踪 RMSE、跟踪峰值、同步 RMS、同步峰值、左侧饱和占比、终点残差、超调。m_eff 可辨识性弱（3.5–14 kg 拟合代价相近），不作为测量值使用。",
+  "source": "results/01_calibration/calibration_search.csv 第 1 行",
+  "m_eff": 9.799,
+  "fc_tot": 1.146,
+  "fs_ratio": 2.127,
+  "b_tot": 9.736,
+  "asym": 1.193,
+  "k_scale": 0.585,
+  "noise_rpm": 22.974,
+  "units": {
+    "m_eff": "kg，等效平动惯量",
+    "fc_tot": "N，两侧库仑摩擦合计（按 asym 分配，右侧大）",
+    "fs_ratio": "静摩擦/库仑摩擦比（Stribeck，vs = 2 mm/s）",
+    "b_tot": "N·s/m，两侧黏性阻尼合计",
+    "asym": "右/左摩擦与阻尼比",
+    "k_scale": "横梁扭转刚度、阻尼的缩放系数",
+    "noise_rpm": "每侧电机 speed_rpm 反馈的高斯噪声标准差（取整前）"
+  }
+}
